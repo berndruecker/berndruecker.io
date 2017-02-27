@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html">
+    <channel>
+        <title><![CDATA[berndruecker - Medium]]></title>
+        <description><![CDATA[Bernd Rücker’s personal blog - Medium]]></description>
+        <link>https://medium.com/berndruecker?source=rss----45ecc32678df---4</link>
+        <image>
+            <url>https://cdn-images-1.medium.com/proxy/1*MXL-j6S8fTEd8UFP_foEEw.png</url>
+            <title>berndruecker - Medium</title>
+            <link>https://medium.com/berndruecker?source=rss----45ecc32678df---4</link>
+        </image>
+        <generator>Medium</generator>
+        <lastBuildDate>Mon, 27 Feb 2017 19:03:26 GMT</lastBuildDate>
+        <atom:link href="https://medium.com/feed/berndruecker" rel="self" type="application/rss+xml"/>
+        <webMaster><![CDATA[yourfriends@medium.com]]></webMaster>
+        <atom:link href="http://medium.superfeedr.com" rel="hub"/>
+        <item>
+            <title><![CDATA[Starting my personal blog]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-snippet">Hello world.</p><p class="medium-feed-link"><a href="https://medium.com/berndruecker/starting-my-personal-blog-8ea19abb413d?source=rss----45ecc32678df---4">Continue reading on berndruecker »</a></p></div>]]></description>
+            <link>https://medium.com/berndruecker/starting-my-personal-blog-8ea19abb413d?source=rss----45ecc32678df---4</link>
+            <guid isPermaLink="false">https://medium.com/p/8ea19abb413d</guid>
+            <dc:creator><![CDATA[Bernd Rücker]]></dc:creator>
+            <pubDate>Fri, 24 Feb 2017 19:49:46 GMT</pubDate>
+            <atom:updated>2017-02-27T12:28:59.808Z</atom:updated>
+        </item>
+    </channel>
+</rss>

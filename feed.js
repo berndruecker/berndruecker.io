@@ -10,8 +10,7 @@ $.get("feed.php", function(data) {
                 author:      $this.find("author").text()
             };
         var div = $('#feed-div');
-        var title = div.append($('<a/>').text(item.title));
-            title.attr("href", item.link);
+        var title = div.append($('<h3/>').text(item.title));
         var decription = div.append($('<div/>').html(item.description));
     });
 });

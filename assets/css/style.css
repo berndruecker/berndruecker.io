@@ -378,3 +378,9 @@ input {
 	margin-top: 30px;
 	letter-spacing: 1px;
 }
+
+
+
+.medium-feed-image img {
+	width: 200px;
+}

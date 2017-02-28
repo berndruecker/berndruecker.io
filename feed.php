@@ -3,7 +3,7 @@
 header('Content-type: application/xml');
 
 // Website url to open
-$url = 'https://medium.com/feed/berndruecker';
+$url = 'https://medium.com/feed/@berndruecker';
 
 // Get that website's content
 $handle = fopen($url, "r");

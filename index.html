@@ -18,6 +18,18 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <style type="text/css">
+.additional-row {
+	display: none;
+}
+
+.blog-preview {
+    height:150px;
+    width:auto;/*maintain aspect ratio*/
+    max-width:100%;    
+}
+    </style>
+
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
@@ -62,7 +74,21 @@
         </div>
       </div><!--/container-->
     </div><!--/.F-->
-
+	<div style="background: #f5f5f5; padding-top: 10px;">
+	      <div class="container">
+	        <div class="row centered">
+	          <div class="col-md-8 col-md-offset-2">
+<form action="//bernd-ruecker.us15.list-manage.com/subscribe/post?u=d444657f2bddfe1694c4ae4af&amp;id=5e19c93416" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	          	Newsletter: 
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d444657f2bddfe1694c4ae4af_5e19c93416" tabindex="-1" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </form>	          	
+			  </div>
+			</div>
+		</div>
+	</div>
     <div class="container ptb">
       <div class="row centered">
     <a href="http://bernd-ruecker.com/feedback" title="Feedback"><img src="assets/img/feedback.png"></a>
@@ -71,23 +97,30 @@
 
     <div class="container">
       <div class="row">
-        <h2 class="centered mb">Who am I?</h2>
-        <div class="col-md-6">
+        <div class="col-md-10">
+       	<h2 class="centered mb">Bio</h2>
+        </div>
+    </div>
+      <div class="row">
+        <div class="col-md-5">
           <p><b>en:</b> Throughout my 15+ years in software development, I have helped automating highly scalable core workflows at global companies including T-Mobile, Lufthansa and Zalando. I have contributed to various open source workflow engines. I am co-founder and developer advocate of Camunda, an open source software company reinventing workflow automation. I co-authored "Real-Life BPMN," a popular book about workflow modeling and automation, now in its fifth edition and available in English, German and Spanish. I regularly speak at conferences and write for various magazines. I am currently focused on new workflow automation paradigms that fit into modern architectures around distributed systems, microservices, domain-driven design, event-driven architecture and reactive systems.
           </p>
         </div><!--/col-md-6-->
-        <div class="col-md-6">          
+        <div class="col-md-5">
           <p><b>de:</b> In entwickle seit über 15 Jahren Software und habe zahlreichen Kunden dabei geholfen, Kernprozesse zu automatisieren, so z.B. der Bestellprozesse bei Zalando, Auftragsprozesse bei T-Mobile oder Patenanträge in der Schweiz. Ich habe aktiv an der Entwicklung verschiedener Open Source Workflow Engines mitgearbeitet und bin Mitgründer der Camunda, ein Open Source Unternehmen das Workflow Automatisierung neu erfindet. Ich bin Co-Author des "Praxishandbuch BPMN", spreche regelmäßig auf Konferenzen und schreibe für verschiedene Magazine. Seit geraumer Zeit beschäftige ich mit Workflow Automation Paradigmen die in moderne Architekturen rund um Microservices, Domain Driven Design, Event Driven Architecture und reaktiver Systeme passen. </p>
         </div><!--/col-md-6-->
+        <div class="col-md-2">
+          <p>
+          	<a href="assets/img/bernd.jpg"><img src="assets/img/bernd.jpg" width="100%">Download profile picture</a>.
+          </p>
+          <p>Use freely for references to me (e.g. conference websites).</p>
+        </div>
+
       </div><!--/row-->
       <div class="row centered">
-        <a href="assets/img/bernd.jpg">Download profile picture: <img src="assets/img/bernd.jpg" width="100px"> </a>
       </div>
     </div><!-- /.container -->
 
-    <div  style="background: #f5f5f5;">
-    <div class="container">
-      <div class="row">
    <!--
         <div class="col-md-6">
           <h2 class="centered mb">
@@ -110,259 +143,178 @@
         </div>
     -->
 
-    <h2 class="centered mb">Newsletter</h2>
-      <div class="centered">
-          <form action="//bernd-ruecker.us15.list-manage.com/subscribe/post?u=d444657f2bddfe1694c4ae4af&amp;id=5e19c93416" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d444657f2bddfe1694c4ae4af_5e19c93416" tabindex="-1" value=""></div>
-            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-          </form>
-      </div>
-
-
-
-      </div>
-    </div>    
-    </div>
-    <div  >
+    <div style="background: #f5f5f5;">
     <div class="container">
       <div class="row">
-        <h2 class="centered mb">Recent Publications and Talks.</h2>
-        <div class="col-md-6">
-            <p>Articles:              
+        <h2 class="centered mb">Publications and Talks</h2>
+        <div class="col-md-4">
+            <h3>Recent articles</h3>          
              <table class="table" style="font-size: 18px; color:#666;">    
-              <tr>
-                <td>02.2018</td>
-                <td>InfoWorld</td>
-                <td><a href="https://www.infoworld.com/article/3254777/application-development/3-common-pitfalls-of-microservices-integrationand-how-to-avoid-them.html">3 common pitfalls of microservices integration—and how to avoid them</a></td>
-              </tr>
-             	<tr>
-             	  <td>12.2017</td>
-             	  <td>InfoQ</td>
-             	  <td><a href="https://www.infoq.com/articles/events-workflow-automation">Events, Flows and Long-Running Services: A Modern Approach to Workflow Automation</a></td>
-             	</tr>
-             	<!-- Scaling your Fintech by automating core processes and decisions https://issuu.com/alexvangroningen7/docs/fintech_magazine_2017/22 -->             	
-                <tr>
-                  <td>06.2017</td>
-                  <td>InfoQ</td>
-                  <td><a href="https://www.infoq.com/articles/microservice-event-choreographies">Know the Flow! Microservices and Event Choreographies</a></td>
-                </tr>                
-                <tr>
-                  <td>10.2016</td>
-                  <td>Windows Developer</td>
-                  <td><a href="https://entwickler.de/online/windowsdeveloper/workflows-bpmn-automatisieren-301118.html">Workflows mit BPMN effektiv automatisieren</a></td>
-                </tr>
-                <tr>
-                  <td>07.2016</td>
-                  <td>Java Aktuell</td>
-                  <td><a href="https://network.camunda.org/whitepaper/45">BPM macht Spaß</a></td>
-                </tr>
-                <tr>
-                  <td>05.2016</td>
-                  <td>Objekt Spektrum</td>
-                  <td><a href="https://www.sigs-datacom.de/uploads/tx_dmjournals/ruecker_OS_05_16_TRBT.pdf">Decision Model and Notation: Digitalisierung von Entscheidungen mit DMN</a></td>
-                </tr>
-                <tr>
-                  <td>04.2016</td>
-                  <td>Business Technology Magazin</td>
-                  <td><a href="https://jaxenter.de/der-brueckenschlag-warum-dmn-den-business-rules-engines-markt-aufmischt-37252">Der Brückenschlag: Warum DMN den Business-Rules-Engines-Markt aufmischt</a></td>
-                </tr>                
-                <tr>
-                  <td>01.2016</td>
-                  <td>Java Magazin</td>
-                  <td><a href="#">Quo Vadis BPM</a></td>
-                </tr>
+ 
+ <tr><td><a href='https://www.infoworld.com/article/3254777/application-development/3-common-pitfalls-of-microservices-integrationand-how-to-avoid-them.html'>3 common pitfalls of microservices integration—and how to avoid them</a><p>2018-02 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoWorld</p></td></tr>
+<tr><td><a href='https://www.infoq.com/articles/events-workflow-automation'>Events, Flows and Long-Running Services: A Modern Approach to Workflow Automation</a><p>2017-12 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoQ</p></td></tr>
+<tr><td><a href='https://www.infoq.com/articles/microservice-event-choreographies'>Know the Flow! Microservices and Event Choreographies</a><p>2017-06 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoQ</p></td></tr>
+<tr><td><a href='https://entwickler.de/online/windowsdeveloper/workflows-bpmn-automatisieren-301118.html'>Workflows mit BPMN effektiv automatisieren</a><p>2016-10 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Windows Developer</p></td></tr>
+<tr><td><a href='https://network.camunda.org/whitepaper/45'>BPM macht Spaß</a><p>2016-07 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Java Aktuell</p></td></tr>
+<tr><td><a href='https://www.sigs-datacom.de/uploads/tx_dmjournals/ruecker_OS_05_16_TRBT.pdf'>Decision Model and Notation: Digitalisierung von Entscheidungen mit DMN</a><p>2016-05 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Objekt Spektrum</p></td></tr>
+<tr><td><a href='https://jaxenter.de/der-brueckenschlag-warum-dmn-den-business-rules-engines-markt-aufmischt-37252'>Der Brückenschlag: Warum DMN den Business-Rules-Engines-Markt aufmischt</a><p>2016-04 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Business Technology</p></td></tr>
+<tr><td><a href=''>Quo Vadis BPM</a><p>2016-01 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Java Magazin</p></td></tr>
+
               </table>
-            </p>
+            
         </div><!--/col-md-6-->
-        <div class="col-md-6">
-            <p>Talks (Slides are linked via the title):
+        <div class="col-md-4">
+              <h3>Recent talks</h3>
               <table class="table" style="font-size: 18px; color:#666;">
                 <!--
                 <tr>
-                  <td>05.2017</td>
-                  <td>JAX (Mainz)</td>
-                  <td><a href="#">Orchestrierung von Microservices</a></td>
-                </tr>
-                -->  
-                <tr>
                   <td>02.2018</td>
                   <td>Jfokus (Stockholm)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/jfokus-2018-lost-in-transaction-strategies-to-deal-with-inconsistency-in-modern-architectures">Lost in transaction - Strategies to deal with (in-)consistency in modern architectures</a> (<a href="https://github.com/flowing/flowing-retail/tree/master/payment-rest">Code</a>, Recording will follow).</td>
+                  <td><span title="In English language">en</span></td>
                 </tr>
                 <tr>
-                  <td>01.2018</td>
-                  <td>Camunda Days (Berlin, Hamburg, D&uuml;sseldorf, Frankfurt, Munic,  Z&uuml;rich, Vienna)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/microservices-with-camunda-talk-from-camunda-days-012018">Microservices with Camunda</a></td>
-                  
+                  <td colspan="2"><a href="#">XXX</a></td>
+                  <td>
+                  	<a href="#" title="Slides"><img src="assets/img/slides.png" height="20px"></a>
+                  	<a href="#" title="Recording"><img src="assets/img/recording.png" height="20px"></a>
+                  	<a href="#" title="Interview"><img src="assets/img/interview.png" height="20px"></a>
+                  	<a href="#" title="Source code"><img src="assets/img/code.png" height="20px"></a>
+                  </td>
                 </tr>
-                <tr>
-                  <td>11.2017</td>
-                  <td>WJAX (Munic)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/wjax-2017-workflow-and-state-machines-at-scale">Workflow Engines at scale</a> and <a href="https://www.slideshare.net/BerndRuecker/wjax-2017-microservice-collaboration">(Micro-)service collaboration</a></td>
-                </tr>
-                <tr>
-                  <td>11.2017</td>
-                  <td>MuCon (London)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/mucon-london-2017-break-your-event-chains">Break your event chains</a> (<a href="https://skillsmatter.com/skillscasts/10718-break-your-event-chains">Recording</a>)</td>
-                </tr>
-                <tr>
-                  <td>10.2017</td>
-                  <td>KanDDDinsky (Berlin), DDD Belgium (Gent), JCon (D&uuml;sseldorf)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/kandddinsky-let-your-domain-events-flow">Let your domain events flow</a> (<a href="https://www.youtube.com/watch?v=LKoaMbqZp9Y">Recording</a>)</td>
-                </tr>
-                <tr>
-                  <td>10.2017</td>
-                  <td>O'Reilly Software Architecture (London)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/oreilly-sa-complex-event-flows-in-distributed-systems">Complex event flows in distributed systems</a> (<a href="https://www.safaribooksonline.com/library/view/oreilly-software-architecture/9781491985274/video315427.html">Recording</a>)</td>
-                </tr>
-                <tr>
-                  <td>09.2017</td>
-                  <td>JUG (Amsterdam), JUG (Frankfurt), Basta (Mainz)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/jug-frankfurt-orchestration-of-microservices">Orchestration of Microservices (Java version)</a>, <a href="https://www.slideshare.net/BerndRuecker/basta-orchestration-of-microservices">Orchestration of Microservices (.NET version)</a></td>
-                </tr>                 
-                <tr>
-                  <td>09.2017</td>
-                  <td>BedCon (Berlin), Java Forum Nord (Hannover)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/7-sins-of-workflow-80009511">7 sins of workflow</a></td>
-                </tr>  
-                <tr>
-                  <td>09.2017</td>
-                  <td>DDD Meetup (Berlin)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/2017-0905-ddd-ber-tackling-complex-event-flows">Tackling complex event flows</a></td>
-                </tr>
-                <tr>
-                  <td>09.2017</td>
-                  <td>JavaBin Meetup (Trondheim &amp; Bergen)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/javabin-trondheim-and-bergen-let-your-microservices-flow">Let your microservices flow</a></td>
-                </tr>
-                <tr>
-                  <td>07.2017</td>
-                  <td>JFS (Stuttgart)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/jfs-2017-orchestration-of-microservices">Orchestration of Microservices</a></td>
-                </tr>
-                <tr>
-                  <td>05.2017</td>
-                  <td>JAX (Mainz)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/jax-2017-talk-orchestration-of-microservices">Orchestration of Microservices</a></td>
-                </tr>                        
-                <tr>
-                  <td>05.2017</td>
-                  <td>JAX (Mainz)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/jax-2017-talk-business-rules-with-dmn-and-camunda">Business Rules with DMN</a></td>
-                </tr>                        
-                <tr>
-                  <td>04.2017</td>
-                  <td>DDD eXchange (London)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/long-running-processes-in-ddd">Long running processes in DDD</a> (<a href="https://skillsmatter.com/skillscasts/9853-long-running-processes-in-ddd">Recording</a>)</td>
-                </tr>                        
-                <tr>
-                  <td>04.2017</td>
-                  <td>Goto Meetup (Oslo)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/goto-meetup-stockholm-let-your-microservices-flow">Let your microservices flow</a></td>
-                </tr>   
-                <tr>
-                  <td>04.2017</td>
-                  <td>JavaBin (Oslo)</td>
-                  <td><a href="https://www.slideshare.net/BerndRuecker/javabin-oslo-open-source-workflow-and-rule-management-with-camunda">Open source workflow and rule management with Camunda</a></td>
-                </tr>   
-                
-                <tr>
-                  <td>03.2017</td>
-                  <td>Voxxed (Vienna)</td>
-                  <td><a href="https://de.slideshare.net/BerndRuecker/master-the-flow-of-microservices-because-your-business-is-more-complex-than">Because your business is more complex than [some sillicon valley company]!</a> (<a href="https://www.voxxed.com/blog/2017/03/orchestration-stacks-netflix/">Interview</a>)</td>
-                </tr>
+                -->  
 
-                <tr>
-                  <td>02.2017</td>
-                  <td>Basta! (Frankfurt)</td>
-                  <td><a href="https://de.slideshare.net/BerndRuecker/bpmn-und-workflows-in-net">BPMN und Workflows in .NET - das geht!</a></td>
-                </tr>
-                <tr>
-                  <td>01.2017</td>
-                  <td>JFokus (Stockholm)</td>
-                  <td><a href="https://de.slideshare.net/BerndRuecker/the-7-sins-of-workflow">The 7 sins of workflow</a></td>
-                </tr>
-                <tr>
-                  <td>01.2017</td>
-                  <td>Camunda roadshow</td>
-                  <td><a href="https://www.slideshare.net/camunda/cmmn-in-camunda-bpm-76-71590434">CMMN in Camunda BPM 7.6</a></td>
-                </tr>                
-                <tr>
-                  <td>11.2016</td>
-                  <td>Digitalisierung und IT in Versicherungen (Wien)</td>
-                  <td><a href="https://de.slideshare.net/BerndRuecker/prozesse-digitalisieren-heute-und-morgen">Prozesse digitalisieren - heute und morgen</a></td>
-                </tr>    
-                <tr>
-                  <td>11.2016</td>
-                  <td>JFall (Ede, Netherlands)</td>
-                  <td><a href="https://de.slideshare.net/BerndRuecker/2016-jfall-camunda-bpm">Camunda BPM</a> (<a href="https://www.youtube.com/watch?v=_WKlc_X6zNE">Recording</a>)</td>
-                </tr> 
-                <tr>
-                  <td>11.2016</td>
-                  <td>WJAX (Munic)</td>
-                  <td><a href="#">BPMN &amp; CMMN. Wann nehme ich welchen Standard?</a></td>
-                </tr>   
-                <tr>
-                  <td>11.2016</td>
-                  <td>WJAX (Munic)</td>
-                  <td><a href="#">Gesch&auml;ftsregeln mit DMN</a></td>
-                </tr> 
-                <tr>
-                  <td>09.2016</td>
-                  <td>Basta! (Mainz)</td>
-                  <td><a href="#">Workflows mit BPMN 2.0 automatisieren</a> (<a href="https://www.youtube.com/watch?v=LTQtwHdBrr8">Interview</a>)</td>
-                </tr>
-                <!--
-                <tr>
-                  <td>09.2016</td>
-                  <td>BPMcon (Berlin)</td>
-                  <td>Das BPM-Trio</td>
-                </tr>
-                -->
-                <tr>
-                  <td>09.2016</td>
-                  <td>Bed-con (Berlin)</td>
-                  <td><a href="https://de.slideshare.net/BerndRuecker/2016-bedcon-talk-workflows-bpmn-business-rules-dmn-case-management-cmmn-live-in-action">Workflows (BPMN), Business Rules (DMN), Case Management (CMMN) – live &amp; in Action</a></td>
-                </tr>  
-                <tr>
-                  <td>07.2016</td>
-                  <td>Java EE Summit (Munic)</td>
-                  <td>BPM und Microservices (<a href="https://www.youtube.com/watch?v=Up4QcVHxrwA">Interview</a>)</td>
-                </tr>
-                <tr>
-                  <td>07.2016</td>
-                  <td>JFS - Java Forum Stuttgart (Stuttgart)</td>
-                  <td>Workflows mit BPMN &amp; Business Rules mit DMN - Open Source und in Action mit Camunda BPM (<a href="http://www.java-forum-stuttgart.de/de/BestPresentations+2016.html">Best Presentation Award</a>)</td>
-                </tr>
-                <tr>
-                  <td>05.2016</td>
-                  <td>SEACON (Hamburg)</td>
-                  <td><a href="#">BPM War Stories. Oder: Wie baue ich eine BPM-Architektur auf?</a></td>
-                </tr>
-                <!--
-                <tr>
-                  <td>04.2016</td>
-                  <td>JAX (Mainz)</td>
-                  <td><a href="#">Open Source BPM mit BPMN, CMMN &amp; DMN</a></td>
-                </tr>
-                -->
-                <tr>
-                  <td>11.2015</td>
-                  <td>Devoxx (Antwerp)</td>
-                  <td>Open Source Workflows, Business Rules and Case Management live and in action (<a href="https://www.youtube.com/watch?v=x9ceAoZt8xw">Recording</a>)</td>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/oreilly-sa-nyc-2018-complex-event-flows-in-distributed-systems/'>Complex event flows in distributed systems</a><p>2018-02 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> O'Reilly Software Architecture (New York City)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/oreilly-sa-nyc-2018-complex-event-flows-in-distributed-systems/' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/jfokus-2018-lost-in-transaction-strategies-to-deal-with-inconsistency-in-modern-architectures'>Lost in transaction - Strategies to deal with (in-)consistency in modern architectures</a><p>2018-02 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Jfokus (Stockholm)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/jfokus-2018-lost-in-transaction-strategies-to-deal-with-inconsistency-in-modern-architectures' title='Slides'><img src='assets/img/slides.png' height='20px'></a><a href='https://github.com/flowing/flowing-retail/tree/master/payment-rest' title='Source code'><img src='assets/img/code.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/microservices-with-camunda-talk-from-camunda-days-012018'>Microservices with Camunda</a><p>2018-01 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Camunda Days (Berlin, Hamburg, D&uuml;sseldorf, Frankfurt, Munic,  Z&uuml;rich, Vienna)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/microservices-with-camunda-talk-from-camunda-days-012018' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/wjax-2017-workflow-and-state-machines-at-scale'>Workflow Engines at scale</a><p>2017-11 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> WJAX (Munic)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/wjax-2017-workflow-and-state-machines-at-scale' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/wjax-2017-microservice-collaboration'>(Micro-)service collaboration</a><p>2017-11 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> WJAX (Munic)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/wjax-2017-microservice-collaboration' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/mucon-london-2017-break-your-event-chains'>Break your event chains</a><p>2017-11 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> MuCon (London)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/mucon-london-2017-break-your-event-chains' title='Slides'><img src='assets/img/slides.png' height='20px'></a><a href='https://skillsmatter.com/skillscasts/10718-break-your-event-chains' title='Recording'><img src='assets/img/recording.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/kandddinsky-let-your-domain-events-flow'>Let your domain events flow</a><p>2017-10 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> KanDDDinsky (Berlin), DDD Belgium (Gent), JCon (D&uuml;sseldorf)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/kandddinsky-let-your-domain-events-flow' title='Slides'><img src='assets/img/slides.png' height='20px'></a><a href='https://www.youtube.com/watch?v=LKoaMbqZp9Y' title='Recording'><img src='assets/img/recording.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/oreilly-sa-complex-event-flows-in-distributed-systems'>Complex event flows in distributed systems</a><p>2017-10 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> O'Reilly Software Architecture (London)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/oreilly-sa-complex-event-flows-in-distributed-systems' title='Slides'><img src='assets/img/slides.png' height='20px'></a><a href='https://www.safaribooksonline.com/library/view/oreilly-software-architecture/9781491985274/video315427.html' title='Recording'><img src='assets/img/recording.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/jug-frankfurt-orchestration-of-microservices'>Orchestration of Microservices (Java edition)</a><p>2017-09 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> JUG (Amsterdam), JUG  (Frankfurt)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/jug-frankfurt-orchestration-of-microservices' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/basta-orchestration-of-microservices'>Orchestration of Microservices (.NET edition)</a><p>2017-09 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Basta (Mainz)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/basta-orchestration-of-microservices' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/7-sins-of-workflow-80009511'>7 sins of workflow</a><p>2017-09 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> BedCon (Berlin), Java Forum Nord (Hannover)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/7-sins-of-workflow-80009511' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/2017-0905-ddd-ber-tackling-complex-event-flows'>Tackling complex event flows</a><p>2017-09 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> DDD Meetup (Berlin)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/2017-0905-ddd-ber-tackling-complex-event-flows' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/javabin-trondheim-and-bergen-let-your-microservices-flow'>Let your microservices flow</a><p>2017-09 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> JavaBin (Trondheim, Bergen)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/javabin-trondheim-and-bergen-let-your-microservices-flow' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://www.slideshare.net/BerndRuecker/jfs-2017-orchestration-of-microservices'>Orchestration of Microservices</a><p>2017-07 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> JFS (Stuttgart)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/jfs-2017-orchestration-of-microservices' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://www.slideshare.net/BerndRuecker/jax-2017-talk-orchestration-of-microservices'>Orchestration of Microservices</a><p>2017-05 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> JAX (Mainz)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/jax-2017-talk-orchestration-of-microservices' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://www.slideshare.net/BerndRuecker/jax-2017-talk-business-rules-with-dmn-and-camunda'>Business Rules with DMN</a><p>2017-05 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> JAX (Mainz)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/jax-2017-talk-business-rules-with-dmn-and-camunda' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr><td><a href='https://www.slideshare.net/BerndRuecker/long-running-processes-in-ddd'>Long running processes in DDD</a><p>2017-04 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> DDD eXchange (London)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/long-running-processes-in-ddd' title='Slides'><img src='assets/img/slides.png' height='20px'></a><a href='https://skillsmatter.com/skillscasts/9853-long-running-processes-in-ddd' title='Recording'><img src='assets/img/recording.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://www.slideshare.net/BerndRuecker/goto-meetup-stockholm-let-your-microservices-flow'>Let your microservices flow</a><p>2017-04 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Goto Meetup (Oslo)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/goto-meetup-stockholm-let-your-microservices-flow' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://www.slideshare.net/BerndRuecker/javabin-oslo-open-source-workflow-and-rule-management-with-camunda'>Open source workflow and rule management with Camunda</a><p>2017-04 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> JavaBIn (Oslo)</p></td><td><a href='https://www.slideshare.net/BerndRuecker/javabin-oslo-open-source-workflow-and-rule-management-with-camunda' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://de.slideshare.net/BerndRuecker/master-the-flow-of-microservices-because-your-business-is-more-complex-than'>Because your business is more complex than Netflix</a><p>2017-03 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Voxxed (Vienna)</p></td><td><a href='https://de.slideshare.net/BerndRuecker/master-the-flow-of-microservices-because-your-business-is-more-complex-than' title='Slides'><img src='assets/img/slides.png' height='20px'></a><a href='https://www.voxxed.com/blog/2017/03/orchestration-stacks-netflix/' title='Interview'><img src='assets/img/interview.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://de.slideshare.net/BerndRuecker/bpmn-und-workflows-in-net'>BPMN und Workflows in .NET - das geht!</a><p>2017-02 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Basta (Frankfurt)</p></td><td><a href='https://de.slideshare.net/BerndRuecker/bpmn-und-workflows-in-net' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://de.slideshare.net/BerndRuecker/the-7-sins-of-workflow'>The 7 sins of workflow</a><p>2017-01 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> JFokus (Stockholm)</p></td><td><a href='https://de.slideshare.net/BerndRuecker/the-7-sins-of-workflow' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://de.slideshare.net/BerndRuecker/prozesse-digitalisieren-heute-und-morgen'>Prozesse digitalisieren - heute und morgen</a><p>2016-11 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Digitalisierung und IT in Versicherungen  (Vienna)</p></td><td><a href='https://de.slideshare.net/BerndRuecker/prozesse-digitalisieren-heute-und-morgen' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://de.slideshare.net/BerndRuecker/2016-jfall-camunda-bpm'>Camunda BPM</a><p>2016-11 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Jfall (Ede)</p></td><td><a href='https://de.slideshare.net/BerndRuecker/2016-jfall-camunda-bpm' title='Slides'><img src='assets/img/slides.png' height='20px'></a><a href='https://www.youtube.com/watch?v=_WKlc_X6zNE' title='Recording'><img src='assets/img/recording.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href=''>BPMN &amp; CMMN. Wann nehme ich welchen Standard?</a><p>2016-11 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> WJAX (Munic)</p></td><td></td></tr>
+<tr class='additional-row'><td><a href=''>Gesch&auml;ftsregeln mit DMN</a><p>2016-11 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> WJAX (Munic)</p></td><td></td></tr>
+<tr class='additional-row'><td><a href=''>Workflows mit BPMN 2.0 automatisieren</a><p>2016-09 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Basta (Mainz)</p></td><td><a href='https://www.youtube.com/watch?v=LTQtwHdBrr8' title='Interview'><img src='assets/img/interview.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='https://de.slideshare.net/BerndRuecker/2016-bedcon-talk-workflows-bpmn-business-rules-dmn-case-management-cmmn-live-in-action'>Workflows (BPMN), Business Rules (DMN), Case Management (CMMN) – live &amp; in Action</a><p>2016-09 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> BedCon (Berlin)</p></td><td><a href='https://de.slideshare.net/BerndRuecker/2016-bedcon-talk-workflows-bpmn-business-rules-dmn-case-management-cmmn-live-in-action' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href=''>BPM und Microservices</a><p>2016-07 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Java EE Summit (Berlin)</p></td><td><a href='https://www.youtube.com/watch?v=Up4QcVHxrwA' title='Interview'><img src='assets/img/interview.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href='http://www.java-forum-stuttgart.de/de/BestPresentations+2016.html'>Workflows mit BPMN &amp; Business Rules mit DMN - Open Source und in Action mit Camunda BPM (won best presentation award)</a><p>2016-07 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> JFS (Stuttgart)</p></td><td><a href='http://www.java-forum-stuttgart.de/de/BestPresentations+2016.html' title='Slides'><img src='assets/img/slides.png' height='20px'></a></td></tr>
+<tr class='additional-row'><td><a href=''>BPM War Stories. Oder: Wie baue ich eine BPM-Architektur auf?</a><p>2016-05 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> SEACON (Hamburg)</p></td><td></td></tr>
+<tr class='additional-row'><td><a href=''>Open Source Workflows, Business Rules and Case Management live and in action</a><p>2015-11 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Devoxx (Antwerp)</p></td><td><a href='https://www.youtube.com/watch?v=x9ceAoZt8xw' title='Source code'><img src='assets/img/code.png' height='20px'></a></td></tr>
+
+              
+   				<tr class="additional-row-show">
+                  <td colspan="2"><a href="javascript:void(0);" onclick="showAdditionalRows()">&dArr; Show more &dArr;</a></td>
                 </tr>
                 
-                <tr>
-                  <td colspan="3">Also talked at QCon, JAX London, CONFESS and many other occasions.</td>
               </table>
-            </p>
+            
         </div><!--/col-md-6-->
+
+
+        <div class="col-md-4">
+        	<h3>Upcoming talks and events</h3>
+
+            <table class="table" style="font-size: 18px; color:#666;">    
+            <tr>
+
+<tr><td><a href='https://qconlondon.com/london2018/presentation/3-common-pitfalls-microservice-integration-and-how-avoid-them'>3 Common Pitfalls in Microservice Integration and How to Avoid them</a><p>Qcon <br> 2018-03-06 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> London</p></td></tr>
+<tr><td><a href='https://voxxeddaysvienna2018.sched.com/event/Dl0C/patience-pays-off-how-long-running-services-reduce-complexity'>Patience pays off. How long running services reduce complexity.</a><p>Voxxed <br> 2018-03-12 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Vienna</p></td></tr>
+<tr><td><a href='https://www.meetup.com/Domain-Driven-Design-Koln-Bonn/events/247273344/'>Long-running services and Camunda </a><p>DDD Meetup <br> 2018-03-19 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Cologne</p></td></tr>
+<tr><td><a href='https://www.meetup.com/jugthde/events/245462401/'>Zeebe.io - Event-driven Microservice Orchestration</a><p>Java User Group <br> 2018-03-22 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Erfurt</p></td></tr>
+<tr><td><a href='http://java.withthebest.com/'>3 Common Pitfalls in Microservice Integration and How to Avoid them</a><p>Java With the Best <br> 2018-04-17 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Online</p></td></tr>
+<tr><td><a href='https://amsterdam2018.codemotionworld.com/talk-detail/?detail=7544'>Workflow automation in the serverless age </a><p>Codemotion <br> 2018-05-09 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Amsterdam</p></td></tr>
+<tr><td><a href='https://craft-conf.com/'>Break your event chains! Complex event flows in distributed systems.</a><p>Craft-Conf <br> 2018-05-10 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> Budapest</p></td></tr>
+<tr><td><a href='https://www.developer-week.de/'>Workflows mit BPMN automatisieren. Lessons Learned.</a><p>Developer Week <br> 2018-06-25 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Nuremberg</p></td></tr>
+<tr><td><a href='https://www.developer-week.de/'>Lost in transaction? Über (In-)Kosistenz in verteilten Systemen </a><p>Developer Week <br> 2018-06-25 <span title='In German language'><img src='assets/img/de.png' height='20px'></span> Nuremberg</p></td></tr>
+
+
+              </tr>
+            </table>
+        </div>
+
+
+
+
       </div><!--/row-->
     </div><!-- /.container -->
     </div><!-- background -->
 
+
+	<script async src="medium-embed.js"></script> <!-- https://static.medium.com/embed.js -->
+    <div class="container">
+      <div class="row">
+	    <h2 class="centered mb">Selected blog posts</h2>
+        <div class="col-md-4">
+        	<div style="text-align: center;">
+        		<img src="https://cdn-images-1.medium.com/fit/t/1600/480/1*8Pb5rg_e1WUalgzf3C6UUw.png" class="blog-preview">
+        	</div>
+        	<h2><a href="https://blog.bernd-ruecker.com/architecture-options-to-run-a-workflow-engine-6c2419902d91">Architecture options to run a workflow engine</a></h2>
+        	<p>
+				This week a customer called and asked (translated into my own words and shortened):
+</p><p>
+				“We do composite services, orchestrating two or three CRUD-Services to do something more useful. Our architects want to use your workflow engine for this because the orchestration flow might be long running. Is this a valid scenario for workflow? Currently we run one big central cluster for the workflow engine — won’t this get a mess?”
+</p><p>
+
+				These are valid questions which recently we get asked a lot, especially in the context of microservices, modern SOA initiatives or domain-driven design. Modern workflow engines are incredibly flexible. In this blog post I will look at possible architectures ...
+			</p><p>
+<a href="https://blog.bernd-ruecker.com/architecture-options-to-run-a-workflow-engine-6c2419902d91">Read more...</a>				
+			</p>
+
+		</div>
+		        <div class="col-md-4">
+        	<div style="text-align: center;">
+	        	<img src="https://cdn-images-1.medium.com/max/583/1*UDhgZg7zEYZmXAn1eOdMSA.png" class="blog-preview">
+	        </div>
+        	<h2><a href="https://blog.bernd-ruecker.com/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e">Use Camunda without touching Java and get an easy-to-use REST-based orchestration and workflow engine</a></h2>
+        	<p>
+				I talk a lot about microservice architectures with “non-Java-folks”, let it be a C# developer, a Node.JS/JavaScript nerd or GoLang enthusiasts. All face the problem that they need an orchestration engine in their microservice architecture — or simply want to leverage workflow, ordering of activities, handling of timeouts, Saga and compensation, or other cool features.
+</p>
+<p>
+The Open Source BPM platform from Camunda serves these use cases very well. Developer friendliness is one of the key values behind the product ...
+</p><p>
+ <a href="https://blog.bernd-ruecker.com/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e">Read more...</a>
+			</p>
+
+		</div>
+        <div class="col-md-4">
+        	<div style="text-align: center;">
+	        	<img src="https://cdn-images-1.medium.com/max/1364/1*ZMiv7akyM_e7BeMzPAOp_g.png" class="blog-preview">
+	        </div>
+        	<h2><a href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Saga: How to implement complex business transactions without two phase commit.</a></h2>
+        	<p>
+				The Saga pattern describes how to solve distributed (business) transactions without two-phase-commit as this does not scale in distributed systems. The basic idea is to break the overall transaction into multiple steps or activities. Only the steps internally can be performed in atomic transactions but the overall consistency is taken care of by the Saga. The Saga has the responsibility to either get the overall business transaction completed or to leave the system in a known termination state. So in case of errors a business rollback procedure is applied which occurs by calling compensation steps or activities in reverse order.
+			</p><p>
+				<a href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Read more...</a>
+			</p>
+
+		</div>
+<!--
+        <div class="col-md-4">
+			<a class="m-story" data-collapsed="true" href="https://blog.bernd-ruecker.com/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e
+">Use Camunda without touching Java and get an easy-to-use REST-based orchestration and workflow engine</a>
+		</div>
+        <div class="col-md-4">
+			<a class="m-story" data-collapsed="true" href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b
+">Saga: How to implement complex business transactions without two phase commit.</a>
+		</div>
+-->
+	  </div>
+	</div>
 
     <div  style="background: #f5f5f5;">
     <div class="container">
@@ -373,8 +325,9 @@
         <div class="col-md-8">
           <h2 class="mb">Real-Life BPMN</h2>
           <h3>
-	          I co-authored the "Real-Life BPMN"-book, which is currently available in the 5th edition and got dozens of 5-star ratings at amazon. We already sold more than 30.000 copies worldwide.
+	          I co-authored the "Real-Life BPMN"-book, which is currently available in the 5th edition and got dozens of 5-star ratings at amazon. We already sold <b>more than 30.000 copies</b> worldwide.
 	          <br> 
+	          <br>
 	          Get it at Amazon <a href="https://www.amazon.com/Real-Life-BPMN-introductions-CMMN-DMN/dp/1541163443/"> in English</a>, <a href="https://www.amazon.de/Praxishandbuch-BPMN-Mit-Einf%C3%BChrung-CMMN/dp/3446450548/">in German</a> or <a href="https://www.amazon.com/BPMN-Manual-Referencia-Práctica-Spanish/dp/1460903935/">in Spanish</a>.
           </h3>
         </div>
@@ -405,8 +358,6 @@
       </div><!--/container-->
     </div><!--/.sep-->
 
-    
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -419,7 +370,16 @@
     <script src="assets/js/jquery.isotope.min.js"></script>
     <script src="assets/js/custom.js"></script>
 
+<!--
     <script src="feed.js"></script>
+-->
+    <script type="text/javascript">
+    	function showAdditionalRows() {
+			$(".additional-row").show();
+			$(".additional-row-show").hide();
+    	}
+    </script>
+
 
 	<script src="//static.getclicky.com/js" type="text/javascript"></script>
 	<script type="text/javascript">try{ clicky.init(101035734); }catch(e){}</script>

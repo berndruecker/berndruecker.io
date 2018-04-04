@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conference Calendar</title>
+<meta charset='utf-8' />
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' rel='stylesheet' />
+	<link href='.https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css' rel='stylesheet' media='print' />
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/locale/de.js'></script>
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js'></script>
+	<script src="https://trello.com/1/client.js?key=9a74c2195b3b3066ede0fffe5abdfce0"></script>
+<script>
+
+  //var url = 'https://api.trello.com/1/boards/595cd91aed9975694f0ea26b/cards?customFieldItems=true' +
+  //		'&key=9a74c2195b3b3066ede0fffe5abdfce0&token=xxx';
+
+  var processCards = function(cards) {  		
+  		var trelloEvents = [];
+  		for (var i = 0; i < cards.length; i++) {
+		    var card = cards[i];
+		    var event = {
+				title: card.name,
+				url: card.url,
+				allDay: true
+		    };
+		    if ('58f8613a2f40f5d5b8543db5'=== card.idList) { // Open CFP
+		    	event.color = '#505050'; // grey
+		    	event.cfpOpen = true;
+		    }
+		    else if ('58f709c1f3f9b5f0d1ff4545'===card.idList) { // Waiting
+		    	event.color = '#c7b62a'; // yellow?
+		    }
+		    else if ('58b42c2fd7116a8e38630e20'===card.idList) { // Accepted
+				event.color = '#126b0e'; // green
+		    	event.talkAccepted = true;
+		    }
+		    else if ('595cd93a6d8444a3cd3413e3'===card.idList) { // Rejected
+				event.color = '#ff5733'; // red
+		    }
+      		for (var j = 0; j < card.customFieldItems.length; j++) {      			
+      			if ('5abb635c0a03b247e0e060c1' === card.customFieldItems[j].idCustomField) { // from
+      				//event.start = card.customFieldItems[j].value.date.stripTime();
+      				event.start = $.fullCalendar.moment( card.customFieldItems[j].value.date ).stripTime();
+      			}      			    
+      			if ('5abb63ad544668ada3be79fd' === card.customFieldItems[j].idCustomField) { // to
+      				//event.end = card.customFieldItems[j].value.date;      				
+      				event.end = $.fullCalendar.moment( card.customFieldItems[j].value.date ).stripTime().add(1, 'days');
+      			}
+      			if ('5abb7eeaf3c0aa66c4efd2bd' === card.customFieldItems[j].idCustomField) { // talk date
+      				if (event.talkAccepted) {
+      					// If talk is accepted and date is set, add speaking day as own event
+      					trelloEvents.push({
+      						title: 'Talk: ' + card.name,
+	      					start: card.customFieldItems[j].value.date,
+	      					end: card.customFieldItems[j].value.date,
+	      					color: '#ff0000',
+							url: card.url,
+	      					allDay: true
+      					});      					
+      				}
+      			}
+      			if ('5abb63c0e5635e2bf9d89c9d' === card.customFieldItems[j].idCustomField) { // CFP
+      				if (event.cfpOpen) {
+      					// If CFP is still open also add the CFP Deadline
+      					trelloEvents.push({
+      						title: 'CFP: ' + card.name,
+	      					start: card.customFieldItems[j].value.date,
+	      					end: card.customFieldItems[j].value.date,
+							url: card.url,
+	      					allDay: true
+      					});
+      				}      				
+      			}
+      		}
+      		if (event.color && event.start) {
+				trelloEvents.push(event);
+      		}
+		}
+
+	    $('#calendar').fullCalendar({
+	      header: {
+	        left: 'prev,next today',
+	        center: 'title',
+	        right: 'month,basicWeek,basicDay'
+	      },
+	      navLinks: true, // can click day/week names to navigate views
+	      editable: true,
+	      eventLimit: true, // allow "more" link when too many events
+	      locale: 'de',
+	      events: trelloEvents       
+	    });
+	};
+
+	var loadTrelloCards = function() {
+	  Trello.get(
+	  	'boards/595cd91aed9975694f0ea26b/cards',
+	    {'customFieldItems': 'true'}, 
+	    function(cards) {
+	    	processCards(cards);
+	    }, 
+	    function(err) {
+	    	console.log(err);
+	    });
+	};
+	
+    $(document).ready(function() {
+		window.Trello.authorize({
+		  name: 'Bernds awesome calendar thingy',
+		  scope: {
+		    read: 'true',
+		    write: 'false' },
+		  expiration: 'never',
+		  success: loadTrelloCards,
+		  error: function(err) {
+		    	console.log(err);
+		    }
+		}); 
+    });
+</script>
+<style>
+  body {
+    margin: 40px 10px;
+    padding: 0;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 14px;
+  }
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+  <div id='calendar'></div>
+
+</body>
+</html>

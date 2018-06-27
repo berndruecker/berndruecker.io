@@ -26,7 +26,8 @@
 		    var event = {
 				title: card.name,
 				url: card.url,
-				allDay: true
+				allDay: true,
+				past: false				
 		    };
 		    if ('58f8613a2f40f5d5b8543db5'=== card.idList) { // Open CFP
 		    	event.color = '#505050'; // grey
@@ -41,6 +42,10 @@
 		    }
 		    else if ('595cd93a6d8444a3cd3413e3'===card.idList) { // Rejected
 				event.color = '#ff5733'; // red
+		    }
+		    else if ('595cd93a6d8444a3cd3413e3' ===card.idList || '595cda3f659dd441ee5d60f2'===card.idList || '595ce1193c184ec9fd54f2ea') { // REjected or Done or Not in Scope
+		    	event.color = '#505050'; // grey
+		    	event.past = true; // grey
 		    }
       		for (var j = 0; j < card.customFieldItems.length; j++) {      			
       			if ('5abb635c0a03b247e0e060c1' === card.customFieldItems[j].idCustomField) { // from

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Bernd Rücker">
+    <link rel="icon" href="../assets/img/favicon.ico">
+
+    <title>Bernd Rücker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <style type="text/css">
+.additional-row {
+	display: none;
+}
+
+.blog-preview {
+    height:150px;
+    width:auto;/*maintain aspect ratio*/
+    max-width:100%;    
+}
+    </style>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div id="h">
+      <div class="logo">
+        <h2></h2>
+      </div><!--/logo-->
+      <div class="container centered">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2" style="text-align: end;">
+            <h1><b>Bernd Rücker</b><br/>Passionate about developer friendly<br />workflow automation technology.</h1>
+          </div>
+        </div><!--/row-->
+
+        
+      </div><!--/container-->
+    </div><!--H-->
+
+<div id="f">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-md-8 col-md-offset-2">
+            <a href="../" title="Home"><i class="ion-home"></i></a>
+
+            <a href="mailto:bernd.ruecker@camunda.com" title="Email"><i class="ion-email"></i></a>
+            <a href="http://twitter.com/berndruecker/" title="Twitter"><i class="ion-social-twitter"></i></a>
+            <a href="http://github.com/berndruecker" title="Github"><i class="ion-social-github"></i></a>
+            <a href="https://de.linkedin.com/in/bernd-ruecker-21661122" title="LinkedIn"><i class="ion-social-linkedin"></i></a>
+            <a href="https://www.xing.com/profile/Bernd_Ruecker2" title="Xing"><i class="fa fa-xing" aria-hidden="true"></i></a>
+            <a href="https://de.slideshare.net/berndruecker" title="Slides"><font size="5">Slides: </font><i class="fa fa-slideshare" aria-hidden="true"></i></a>
+            <a href="https://blog.bernd-ruecker.com/" title="Blog"><font size="5">Blog: </font><i class="fa fa-medium" aria-hidden="true"></i></a>
+
+            <a href="../bio.html" title="Blog"><font size="5">About me</font></a>
+
+          </div><!--/col-md-8-->
+        </div>
+      </div><!--/container-->
+    </div><!--/.F-->
+<!--    
+	<div style="background: #f5f5f5; padding-top: 10px;">
+	      <div class="container">
+	        <div class="row centered">
+	          <div class="col-md-8 col-md-offset-2">
+<form action="//bernd-ruecker.us15.list-manage.com/subscribe/post?u=d444657f2bddfe1694c4ae4af&amp;id=5e19c93416" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	          	Newsletter: 
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d444657f2bddfe1694c4ae4af_5e19c93416" tabindex="-1" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </form>	          	
+			  </div>
+			</div>
+		</div>
+	</div>
+    <div class="container ptb">
+      <div class="row centered">
+    <a href="http://bernd-ruecker.com/feedback" title="Feedback"><img src="assets/img/feedback.png"></a>
+      </div>
+    </div>
+-->
+
+    <div class="container ptb">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="centered mb">Talk</h4></p>
+       	  <h1 class="centered mb">3 common pitfalls in microservice integration and how to avoid them</h1>
+          <p>
+            Integrating microservices and taming distributed systems is hard. In this talk I will present three challenges I've observed in real-life projects and discuss how to avoid them.
+          </p>
+            <p>1. Communication is complex. With everything being distributed failures are normal so you need sophisticated failure handling strategies (e.g. stateful retry).</p>
+            <p>2. Asynchronicity requires you to handle timeouts. This is not only about milliseconds, systems get much more resilient when you can wait for minutes, hours or even longer.</p>
+            <p>3. Distributed transactions cannot simply be delegated to protocols like XA. So you need to solve the requirement to retain consistency in case of failures.</p>
+            <p>
+              I will not only use slides but also demonstrate concrete source code examples available on GitHub.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        
+      	<div class="col-md-4">
+          <h4><a href="http://www.slideshare.net/BerndRuecker/2018-lost-in-transaction" target="_blank">Slides</a></h4>
+
+           <iframe src="https://www.slideshare.net/slideshow/embed_code/key/73Corvcd54k4XH" width="100%" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+        </div>
+        <div class="col-md-4">
+
+          <h4><a href="https://www.youtube.com/watch?v=O2-NHptllKQ&feature=youtu.be">Recording from QCon London</a></h4>
+
+          <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/O2-NHptllKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;"  allowfullscreen></iframe>
+          </div>
+
+      	</div>
+        <div class="col-md-4">
+
+            <h4><a href="https://www.infoworld.com/article/3254777/application-development/3-common-pitfalls-of-microservices-integrationand-how-to-avoid-them.html" target="_blank">Article</a></h4>
+
+              <h4><a href="https://www.infoworld.com/article/3254777/application-development/3-common-pitfalls-of-microservices-integrationand-how-to-avoid-them.html">InfoWorld: 3 common pitfalls in microservice integration and how to avoid them</a></h4>
+
+              <div style="text-align: center;">
+                <img src="https://images.idgesg.net/images/article/2017/05/businessman_bridges_gap_problem_challenge_thinkstock_496726041-100724484-large.jpg" class="blog-preview">
+              </div>
+
+              <p>
+                How to overcome the challenges of remote communication, asynchronicity, and transactions in microservices infrastructure
+              </p>
+              <p>
+                <a href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Read more...</a>
+              </p>
+        </div>        
+      	<div class="col-md-12">         
+          
+              <h3>Talk recently delivered at:</h3>
+              <table class="table" style="font-size: 18px; color:#666;">
+<!-- TODO -->
+              </table>
+            
+        </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      </div><!--/row-->
+    </div><!-- /.container -->
+    </div><!-- background -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/retina-1.1.0.js"></script>
+    <script src="../assets/js/jquery.hoverdir.js"></script>
+    <script src="../assets/js/jquery.hoverex.min.js"></script>
+    <script src="../assets/js/jquery.prettyPhoto.js"></script>
+    <script src="../assets/js/jquery.isotope.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+
+<!--
+    <script src="feed.js"></script>
+-->
+    <script type="text/javascript">
+    	function showAdditionalRows() {
+			$(".additional-row").show();
+			$(".additional-row-show").hide();
+    	}
+    </script>
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//berndruecker.io/stats/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<!-- Matomo Image Tracker-->
+<noscript>
+<img src="https://berndruecker.io/stats/piwik.php?idsite=1&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Matomo -->
+
+  </body>
+</html>

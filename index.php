@@ -14,9 +14,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-          <h2>Next talks</h2>
+          <h2>Next talks (<a href="talks.php">all talks</a>)</h2>
           
             <div v-for="item in filterUpcoming(talks)">
+              <p>
                 <span style="white-space: nowrap;">
                   {{ item['fields']['Talk-Date'] }}
                 </span>
@@ -27,14 +28,16 @@
                 {{ item['fields']['Name'] }}  {{ item['fields']['Location'] }}:
                 
                 <a v-bind:href="item['fields']['Agenda Link']">{{ item['fields']['Talk Title'] }}</a>
+              </p>
             </div>
             <h4><a href="talks.php">All talks ❯</a></h4>
         </div>
         <div class="col-md-4">
-          <h2>Recent talks</h2>
+          <h2>Recent talks (<a href="talks.php">all talks</a>)</h2>
             <table>
               <tr v-for="item in filterDone(talks)">    
-                <td>          
+                <td>   
+                <p>       
                   <span style="white-space: nowrap;">
                     {{ item['fields']['Talk-Date'] }}
                   </span>
@@ -45,6 +48,7 @@
                   {{ item['fields']['Name'] }}  {{ item['fields']['Location'] }}:                               
 
                   <a v-bind:href="item['fields']['Agenda Link']">{{ item['fields']['Talk Title'] }}</a>
+                  </p>
                 </td>
                 <td>
                   <a v-show="item['fields']['Talk Slides']" v-bind:href="item['fields']['Talk Slides']" title='Slides'><img src='../assets/img/slides.png' height='20px'></a>
@@ -60,7 +64,7 @@
 
 
         <div class="col-md-4">
-            <h3>Recent articles</h3>          
+            <h2>Recent articles</h2>          
              <table >    
  
 <tr><td><p>2018-04 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> TheNewStack</p><a href='https://thenewstack.io/5-workflow-automation-use-cases-you-might-not-have-considered/'>5 Workflow Automation Use Cases You Might Not Have Considered</a></td></tr>

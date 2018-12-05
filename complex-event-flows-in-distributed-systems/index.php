@@ -4,6 +4,7 @@
 
 <script type="text/javascript">
   var talkName = 'Complex event flows';
+  var limit = 100;  
   var speaker = 'Bernd';
 </script>
 
@@ -70,7 +71,7 @@
 
 
       <div class="row" id="app"> <!-- vue.js app for dynamic content -->
-        <div class="col-md-4" id="app"> 
+        <div class="col-md-6" id="app"> 
           
               <h3>Upcoming gigs:</h3>
               <table class="table" style="font-size: 18px; color:#666;">
@@ -89,7 +90,7 @@
 
               </table>
             </div>
-            <div class="col-md-4"> 
+            <div class="col-md-6"> 
 
 
               <h3>Recently delivered at:</h3>

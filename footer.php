@@ -4,15 +4,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
-
     <script type="text/javascript" src="https://unpkg.com/vue"></script>
 <script type="text/javascript">
 
 <?php
-$api_key = 'keyz19T8zcHC2GHom';
-$base = 'appcKp5ynoX2ZrEAf';
+include("airtable-key.php");
 
-$url = "https://api.airtable.com/v0/" . $base . "/Conferences?view=Talks%20Homepage"; // . "&sort%5B0%5D%5Bfield%5D=Talk-Date&sort%5B0%5D%5Bdirection%5D=desc";
+$url = "https://api.airtable.com/v0/" . $base . "/Conferences?view=Talks%20Homepage" . "&sort%5B0%5D%5Bfield%5D=Talk-Date&sort%5B0%5D%5Bdirection%5D=desc";
 
 $headers = array(
     'Authorization: Bearer ' . $api_key
@@ -54,31 +52,32 @@ curl_close($ch);
                 methods: {
                     filterUpcoming: function (talks) {
                       var filteredTaks = talks.filter(function (item) {
-                          return (item['fields']['Talk Status']=='accepted' && item['fields']['Speaker']==speaker && item['fields']['Talk Shorttitle']==talkName); 
+                        if (talkName && item['fields']['Talk Shorttitle']!=talkName) {
+                          return false;
+                        }
+                        return (item['fields']['Talk Status']=='accepted' && item['fields']['Speaker']==speaker);                        
                       });
                       var sortedTalks = filteredTaks.sort(function(a, b) {
                         return sortTalkDate(a, b);
                       });
-                      return sortedTalks;
+                      var pagedTalks = sortedTalks.slice(0, limit);
+                      return pagedTalks;
                     },
                     filterDone: function (talks) {
                       var filteredTaks = talks.filter(function (item) {
-                          return (item['fields']['Talk Status']=='done' && item['fields']['Speaker']==speaker && item['fields']['Talk Shorttitle']==talkName); 
+                        if (talkName && item['fields']['Talk Shorttitle']!=talkName) {
+                          return false;
+                        }
+                        return (item['fields']['Talk Status']=='done' && item['fields']['Speaker']==speaker);                        
                       });
                       var sortedTalks = filteredTaks.sort(function(a, b) {
                         return sortTalkDate(b, a);
                       });
-                      return sortedTalks;
+                      var pagedTalks = sortedTalks.slice(0, limit);
+                      return pagedTalks;
                     }
                 }
             })
-    </script>
-
-    <script type="text/javascript">
-    	function showAdditionalRows() {
-			$(".additional-row").show();
-			$(".additional-row-show").hide();
-    	}
     </script>
 
 

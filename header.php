@@ -19,10 +19,6 @@
     <link href="../assets/css/style.css" rel="stylesheet">
 
     <style type="text/css">
-.additional-row {
-	display: none;
-}
-
 .blog-preview {
     height:150px;
     width:auto;/*maintain aspect ratio*/

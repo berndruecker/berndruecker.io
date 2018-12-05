@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conference Table</title>
+<meta charset='utf-8' />
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script src="https://trello.com/1/client.js?key=9a74c2195b3b3066ede0fffe5abdfce0"></script>
+<script>
+
+  //var url = 'https://api.trello.com/1/boards/595cd91aed9975694f0ea26b/cards?customFieldItems=true' +
+  //		'&key=9a74c2195b3b3066ede0fffe5abdfce0&token=xxx';
+  var renderTable = function(rows) {
+		 var html = '<table>';
+		 html += '<tr>';
+		 for( var j in rows[0] ) {
+		  html += '<th>' + j + '</th>';
+		 }
+		 html += '</tr>';
+		 for( var i = 0; i < rows.length; i++) {
+		  html += '<tr>';
+		  for( var j in rows[i] ) {
+		    html += '<td>' + rows[i][j] + '</td>';
+		  }
+		 }
+		 html += '</table>';
+		 document.getElementById('container').innerHTML = html;
+  };
+
+  var getDate = function(dateString) {
+  	var date = new Date(dateString);
+	return date.getDate()+'.' + (date.getMonth()+1) + '.'+date.getFullYear()
+  }
+
+  var processCards = function(cards) {  		
+  		var rows = [];
+  		for (var i = 0; i < cards.length; i++) {
+		    var card = cards[i];
+		    var event = {
+				trelloTitle: card.name,
+				trelloLocation: card.name,
+				trelloUrl: card.url,
+				dateFrom:'',
+				dateTo:'',
+				what:'',
+				targetGroup:'',
+				size:'',
+				booth1:'',
+				booth2:'',
+				booth3:'',
+				booth4:'',
+				booth5:'',
+				booth6:'',
+				talkStatus: '',
+				cfpDateEstimated:'',
+				cfpDate:'',			
+				cfpUrl:'',
+				speaker:'Bernd',
+				talkDate:''				
+		    };
+		    if ('58f8613a2f40f5d5b8543db5'=== card.idList) { // Open CFP
+		    	event.talkStatus = 'hand-in'; // greyno, hand-in, waiting, accepted, rejected
+		    }
+		    else if ('58f709c1f3f9b5f0d1ff4545'===card.idList) { // Waiting
+		    	event.talkStatus = 'waiting'; 
+		    }
+		    else if ('58b42c2fd7116a8e38630e20'===card.idList) { // Accepted
+				event.talkStatus = 'accepted'; 
+		    }
+		    else if ('595cd93a6d8444a3cd3413e3'===card.idList) { // Rejected
+				event.talkStatus = 'rejected'; 
+		    }
+		    else if ('595cda3f659dd441ee5d60f2'===card.idList) { // Done
+				event.talkStatus = 'done'; 
+		    } 
+		    else if ('595ce1193c184ec9fd54f2ea'===card.idList) { //  Not in Scope
+				event.talkStatus = 'no'; 
+		    } 
+		    
+      		for (var j = 0; j < card.customFieldItems.length; j++) {      			
+      			if ('5abb635c0a03b247e0e060c1' === card.customFieldItems[j].idCustomField) { // from
+      				//event.start = card.customFieldItems[j].value.date.stripTime();
+      				event.dateFrom = getDate(card.customFieldItems[j].value.date);
+      			}      			    
+      			if ('5abb63ad544668ada3be79fd' === card.customFieldItems[j].idCustomField) { // to
+      				//event.end = card.customFieldItems[j].value.date;      				
+      				event.dateTo = getDate(card.customFieldItems[j].value.date);
+      			}
+      			if ('5abb7eeaf3c0aa66c4efd2bd' === card.customFieldItems[j].idCustomField) { // talk date
+      				event.talkDate = getDate(card.customFieldItems[j].value.date);
+      			}
+      			if ('5abb63c0e5635e2bf9d89c9d' === card.customFieldItems[j].idCustomField) { // CFP
+      				event.cfpDate = getDate(card.customFieldItems[j].value.date);
+      			}
+      		}
+      		rows.push(event);
+		}
+
+		renderTable(rows);	    
+	};
+
+	var loadTrelloCards = function() {
+	  Trello.get(
+	  	'boards/595cd91aed9975694f0ea26b/cards',
+	    {'customFieldItems': 'true'}, 
+	    function(cards) {
+	    	processCards(cards);
+	    }, 
+	    function(err) {
+	    	console.log(err);
+	    });
+	};
+	
+    $(document).ready(function() {
+		window.Trello.authorize({
+		  name: 'Bernds awesome calendar thingy',
+		  scope: {
+		    read: 'true',
+		    write: 'false' },
+		  expiration: 'never',
+		  success: loadTrelloCards,
+		  error: function(err) {
+		    	console.log(err);
+		    }
+		}); 
+    });
+</script>
+<style>
+  body {
+    margin: 40px 10px;
+    padding: 0;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 14px;
+  }
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<div id="container"></div>
+
+</body>
+</html>

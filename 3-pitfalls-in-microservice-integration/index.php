@@ -4,7 +4,7 @@
 
 <script type="text/javascript">
   var talkName = '3 pitfalls';
-//           var talkName = 'Lost in transaction';
+  var limit = 100;
   var speaker = 'Bernd';
 </script>
 

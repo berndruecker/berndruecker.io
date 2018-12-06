@@ -1,4 +1,10 @@
 <?php
+
+  $metaTitle = "Complex event flows in distributed systems";
+  $metaDescription = "Talk about how to handle event chains in microservice architectures that cross service boundaries held e.g. at QCon, CraftConf, O'Reilly and others";
+  $metaKeywords = "Microservices, Event-Driven Architecture, DDD, Orchestration, Choreography, Workflow Automation";
+  $metaUrl = "https://berndruecker.io/complex-event-flows-in-distributed-systems/";
+
   include("../header.php"); 
 ?>
 

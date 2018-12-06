@@ -1,4 +1,9 @@
 <?php
+  $metaTitle = "Bernd Rücker";
+  $metaDescription = "Homepage of Bernd Rücker, passionate about developer-friendly workflow automation technology. Co-founder and developer advocate of Camunda.";
+  $metaKeywords = "Workflow Automation";
+  $metaUrl = "https://berndruecker.io/";
+
   include("./header.php"); 
 ?>
 

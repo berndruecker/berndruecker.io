@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head>        
+    <meta name="title" content="<?php echo $metaTitle; ?>">
+    <meta name="description" content="<?php echo $metaDescription; ?>">
+    <meta name="keywords" content="<?php echo $metaKeywords; ?>">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@berndruecker">
+
+    <meta property="og:url" content="<?php echo $metaUrl; ?>" />
+    <meta property="og:title" content="<?php echo $metaTitle; ?>" />
+    <meta property="og:description" content="<?php echo $metaDescription; ?>" />
+    <meta property="og:image" content="<?php echo $metaUrl; ?>overview.png" />    
+
+
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Bernd Ruecker">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Bernd Rücker">
+    <!--
     <link rel="icon" href="../assets/img/favicon.ico">
+    -->
 
-    <title>Bernd Rücker</title>
+    <title>Bernd Rücker: <?php echo $metaTitle; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
@@ -35,6 +53,36 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <script type="text/javascript" src="https://unpkg.com/vue"></script>
+<script type="text/javascript">
+
+<?php
+include("airtable-key.php");
+
+$url = "https://api.airtable.com/v0/" . $base . "/Conferences?view=Talks%20Homepage" . "&sort%5B0%5D%5Bfield%5D=Talk-Date&sort%5B0%5D%5Bdirection%5D=desc";
+
+$headers = array(
+    'Authorization: Bearer ' . $api_key
+);
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_HTTPGET, 1);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+curl_setopt($ch, CURLOPT_URL, $url);
+$entries = curl_exec($ch);
+curl_close($ch);
+?>
+
+           var talksData = JSON.parse(<?php echo json_encode($entries) ?>).records;
+
+    </script>
+
+
+    
   </head>
 
   <body>

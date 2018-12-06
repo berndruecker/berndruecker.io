@@ -1,4 +1,9 @@
 <?php
+  $metaTitle = "3 common pitfalls in microservice integration and how to avoid them";
+  $metaDescription = "Talk about three challenges with taming distributed systems and microservices in real-life projects held at many conferences around the globe";
+  $metaKeywords = "Microservices, Distributed System, Remote Communication, Resilience, Orchestration, Choreography, Workflow Automation";
+  $metaUrl = "https://berndruecker.io/3-pitfalls-in-microservice-integration/";
+
   include("../header.php"); 
 ?>
 

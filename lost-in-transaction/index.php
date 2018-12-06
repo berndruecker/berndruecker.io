@@ -1,4 +1,9 @@
 <?php
+  $metaTitle = "Lost in transaction? Strategies to manage consistency in distributed systems";
+  $metaDescription = "Talk about consistency and all-or nothing semantics in distributed systems where ACID transactions are not available. Held e.g. at JavaZone, Devoxx and JFokus.";
+  $metaKeywords = "Microservices, Distributed System, Remote Communication, Transactions, Consistency, Eventual Consistency, Saga, Orchestration, Choreography, Workflow Automation";
+  $metaUrl = "https://berndruecker.io/lost-in-transaction/";
+
   include("../header.php"); 
 ?>
 
@@ -51,7 +56,7 @@
 
 
               <div style="text-align: center;">
-                <img src="https://cdn-images-1.medium.com/max/600/1*ZMiv7akyM_e7BeMzPAOp_g.png" class="blog-preview">
+                <img src="overview.png" class="blog-preview">
               </div>
 
               <h4><a href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Saga: How to implement complex business transactions without two phase commit.</a></h4>

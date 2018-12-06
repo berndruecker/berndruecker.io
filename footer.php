@@ -1,33 +1,4 @@
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/vue"></script>
 <script type="text/javascript">
-
-<?php
-include("airtable-key.php");
-
-$url = "https://api.airtable.com/v0/" . $base . "/Conferences?view=Talks%20Homepage" . "&sort%5B0%5D%5Bfield%5D=Talk-Date&sort%5B0%5D%5Bdirection%5D=desc";
-
-$headers = array(
-    'Authorization: Bearer ' . $api_key
-);
-
-$ch = curl_init();
-curl_setopt($ch, CURLOPT_HTTPGET, 1);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-curl_setopt($ch, CURLOPT_URL, $url);
-$entries = curl_exec($ch);
-curl_close($ch);
-?>
-
-           var talksData = JSON.parse(<?php echo json_encode($entries) ?>).records;
-
            function sortTalkDate(a, b) {
                         if (!a['fields']['Talk-Date']) {
                             a['fields']['Talk-Date'] = a['fields']['Date from'];
@@ -78,8 +49,13 @@ curl_close($ch);
                     }
                 }
             })
-    </script>
+</script>
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 
 <!-- Matomo -->
 <script type="text/javascript">

@@ -116,7 +116,7 @@ curl_close($ch);
             <a href="https://de.slideshare.net/berndruecker" title="Slides"><font size="5">Slides: </font><i class="fa fa-slideshare" aria-hidden="true"></i></a>
             <a href="https://blog.bernd-ruecker.com/" title="Blog"><font size="5">Blog: </font><i class="fa fa-medium" aria-hidden="true"></i></a>
 
-            <a href="../bio.html" title="Blog"><font size="5">About me</font></a>
+            <a href="../bio.php" title="Blog"><font size="5">About me</font></a>
 
           </div><!--/col-md-8-->
         </div>

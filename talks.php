@@ -1,6 +1,6 @@
 <?php
   $metaTitle = "Bernd Rücker";
-  $metaDescription = "Homepage of Bernd Rücker, passionate about developer-friendly workflow automation technology. Co-founder and developer advocate of Camunda.";
+  $metaDescription = "Homepage of Bernd Rücker, passionate about developer-friendly workflow automation technology. Co-founder and technologist of Camunda.";
   $metaKeywords = "Workflow Automation";
   $metaUrl = "https://berndruecker.io/";
 
@@ -65,9 +65,12 @@
 
 
         <div class="col-md-4">
-            <h3>Past articles</h3>          
+            <h3>Past articles and podcasts</h3>          
              <table >    
- 
+
+  <tr><td><p>2019-02 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoQ</p><a href='https://www.infoq.com/articles/monitor-workflow-collaborating-microservices'>Monitoring and Managing Workflows Across Collaborating Microservices </a></td></tr>
+<tr><td><p>2019-01 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> SE-Radio</p><a href='http://www.se-radio.net/2019/01/episode-351-bernd-rucker-on-orchestrating-microservices-with-workflow-management/'>Orchestrating Microservices with Workflow Management</a></td></tr>
+
 <tr><td><p>2018-04 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> TheNewStack</p><a href='https://thenewstack.io/5-workflow-automation-use-cases-you-might-not-have-considered/'>5 Workflow Automation Use Cases You Might Not Have Considered</a></td></tr>
 <tr><td><p>2018-02 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoWorld</p><a href='https://www.infoworld.com/article/3254777/application-development/3-common-pitfalls-of-microservices-integrationand-how-to-avoid-them.html'>3 common pitfalls of microservices integration—and how to avoid them</a></td></tr>
 <tr><td><p>2017-12 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoQ</p><a href='https://www.infoq.com/articles/events-workflow-automation'>Events, Flows and Long-Running Services: A Modern Approach to Workflow Automation</a></td></tr>

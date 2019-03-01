@@ -1,6 +1,6 @@
 <?php
   $metaTitle = "Bernd Rücker";
-  $metaDescription = "Homepage of Bernd Rücker, passionate about developer-friendly workflow automation technology. Co-founder and developer advocate of Camunda.";
+  $metaDescription = "Homepage of Bernd Rücker, passionate about developer-friendly workflow automation technology. Co-founder and technologist of Camunda.";
   $metaKeywords = "Workflow Automation";
   $metaUrl = "https://berndruecker.io/";
 
@@ -16,7 +16,7 @@
     </div>
       <div class="row">
         <div class="col-md-5">
-          <p><img src='assets/img/en.png' height='20px'></span> Throughout my 15+ years in software development, I have helped automating highly scalable core workflows at global companies including T-Mobile, Lufthansa and Zalando. I have contributed to various open source workflow engines. I am co-founder and developer advocate of Camunda, an open source software company reinventing workflow automation. I co-authored "Real-Life BPMN," a popular book about workflow modeling and automation, now in its fifth edition and available in English, German and Spanish. I regularly speak at conferences and write for various magazines. I am currently focused on new workflow automation paradigms that fit into modern architectures around distributed systems, microservices, domain-driven design, event-driven architecture and reactive systems.
+          <p><img src='assets/img/en.png' height='20px'></span> Throughout my 15+ years in software development, I have helped automating highly scalable core workflows at global companies including T-Mobile, Lufthansa and Zalando. I have contributed to various open source workflow engines. I am co-founder and chief technologist of Camunda, an open source software company reinventing workflow automation. I co-authored "Real-Life BPMN," a popular book about workflow modeling and automation, now in its fifth edition and available in English, German and Spanish. I regularly speak at conferences and write for various magazines. I am currently focused on new workflow automation paradigms that fit into modern architectures around distributed systems, microservices, domain-driven design, event-driven architecture and reactive systems.
           </p>
         </div>
         <div class="col-md-5">
@@ -38,7 +38,7 @@
     <div style="background: #f5f5f5;">
     <div class="container mt">
         <div class="row clients centered">
-          <p class="mb">The company I co-founded and love to work for as developer advocate:</p>
+          <p class="mb">The company I co-founded and love to work for as technologist:</p>
           <div class="col-sm-12">
             <a href="http://camunda.com"><img src="assets/img/camunda.png" alt=""></a>
           </div>

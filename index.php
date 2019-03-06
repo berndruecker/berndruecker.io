@@ -193,7 +193,7 @@
 <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2>Selected blog posts (<a href="https://blog.berndruecker.io/">all posts</a>)</h2>
+              <h2>Selected blog posts (<a href="https://blog.bernd-ruecker.com/">all posts</a>)</h2>
             </div>
           </div>
           <div class="row">
@@ -201,11 +201,11 @@
               <div style="text-align: center;">
                 <img src="https://cdn-images-1.medium.com/max/1500/1*cJWRsT-c_0-PxcyrmF9ECw.png" class="blog-preview">
               </div>
-              <h2><a href="https://blog.berndruecker.io/the-microservice-workflow-automation-cheat-sheet-fc0a80dc25aa">The Microservice Workflow Automation Cheat Sheet</a></h2>
+              <h2><a href="https://blog.bernd-ruecker.com/the-microservice-workflow-automation-cheat-sheet-fc0a80dc25aa">The Microservice Workflow Automation Cheat Sheet</a></h2>
               <p>
             Your company might want to go for a microservice architecture and apply workflow automation. This sets you in company with a lot of our customers. Typically, you will have questions around: ...
           </p><p>
-    <a href="https://blog.berndruecker.io/the-microservice-workflow-automation-cheat-sheet-fc0a80dc25aa">Read more...</a>        
+    <a href="https://blog.bernd-ruecker.com/the-microservice-workflow-automation-cheat-sheet-fc0a80dc25aa">Read more...</a>        
           </p>
 
         </div>
@@ -213,14 +213,14 @@
               <div style="text-align: center;">
                 <img src="https://cdn-images-1.medium.com/max/583/1*UDhgZg7zEYZmXAn1eOdMSA.png" class="blog-preview">
               </div>
-              <h2><a href="https://blog.berndruecker.io/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e">Use Camunda without touching Java and get an easy-to-use REST-based orchestration and workflow engine</a></h2>
+              <h2><a href="https://blog.bernd-ruecker.com/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e">Use Camunda without touching Java and get an easy-to-use REST-based orchestration and workflow engine</a></h2>
               <p>
             I talk a lot about microservice architectures with “non-Java-folks”, let it be a C# developer, a Node.JS/JavaScript nerd or GoLang enthusiasts. All face the problem that they need an orchestration engine in their microservice architecture — or simply want to leverage workflow, ordering of activities, handling of timeouts, Saga and compensation, or other cool features.
     </p>
     <p>
     The Open Source BPM platform from Camunda serves these use cases very well. Developer friendliness is one of the key values behind the product ...
     </p><p>
-     <a href="https://blog.berndruecker.io/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e">Read more...</a>
+     <a href="https://blog.bernd-ruecker.com/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e">Read more...</a>
           </p>
 
         </div>
@@ -228,21 +228,21 @@
               <div style="text-align: center;">
                 <img src="https://cdn-images-1.medium.com/max/1364/1*ZMiv7akyM_e7BeMzPAOp_g.png" class="blog-preview">
               </div>
-              <h2><a href="https://blog.berndruecker.io/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Saga: How to implement complex business transactions without two phase commit.</a></h2>
+              <h2><a href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Saga: How to implement complex business transactions without two phase commit.</a></h2>
               <p>
             The Saga pattern describes how to solve distributed (business) transactions without two-phase-commit as this does not scale in distributed systems. The basic idea is to break the overall transaction into multiple steps or activities. Only the steps internally can be performed in atomic transactions but the overall consistency is taken care of by the Saga. The Saga has the responsibility to either get the overall business transaction completed or to leave the system in a known termination state. So in case of errors a business rollback procedure is applied which occurs by calling compensation steps or activities in reverse order.
           </p><p>
-            <a href="https://blog.berndruecker.io/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Read more...</a>
+            <a href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b">Read more...</a>
           </p>
 
         </div>
     <!--
             <div class="col-md-4">
-          <a class="m-story" data-collapsed="true" href="https://blog.berndruecker.io/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e
+          <a class="m-story" data-collapsed="true" href="https://blog.bernd-ruecker.com/use-camunda-without-touching-java-and-get-an-easy-to-use-rest-based-orchestration-and-workflow-7bdf25ac198e
     ">Use Camunda without touching Java and get an easy-to-use REST-based orchestration and workflow engine</a>
         </div>
             <div class="col-md-4">
-          <a class="m-story" data-collapsed="true" href="https://blog.berndruecker.io/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b
+          <a class="m-story" data-collapsed="true" href="https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b
     ">Saga: How to implement complex business transactions without two phase commit.</a>
         </div>
     -->

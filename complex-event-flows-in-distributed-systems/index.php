@@ -54,7 +54,35 @@
         </div>
         <div class="col-md-4">
 
-            <h2><a href="https://www.infoq.com/articles/events-workflow-automation" target="_blank">Article</a></h2>
+            <h2><a href="https://www.infoq.com/articles/events-workflow-automation" target="_blank">Articles</a></h2>
+
+              <div style="text-align: center;">
+                <img src="infoq-article.png" class="blog-preview">
+              </div>
+
+              <h4><a href="https://www.infoq.com/news/2019/03/event-driven-systems">A Critical Look at Event-Driven Systems: Bernd Rücker at QCon London</a></h4>
+
+              <p>There is currently a hype in the adoption of event-driven systems. Sometimes they are almost seen as the "magic thing" in our strive for decoupled systems, Bernd Rücker, noted at the QCon London 2019 conference. In his presentation he took a critical look at three common hypotheses around event-driven systems: events decrease coupling, orchestration needs to be avoided, and workflow engines are painful...
+              </p>
+              <p>
+                <a href="https://www.infoq.com/news/2019/03/event-driven-systems">Read more...</a>
+              </p>
+
+
+              <div style="text-align: center;">
+                <img src="visibility-article.png" class="blog-preview">
+              </div>
+
+              <h4><a href="https://www.infoq.com/articles/monitor-workflow-collaborating-microservices">Monitoring and Managing Workflows across Collaborating Microservices</a></h4>
+
+              <p>
+                Peer-to-peer communication between components can lead to emergent behavior, which is challenging for developers, operators and business analysts to understand. So you need to make sure to have the overview of all of the backwards-and-forwards communication that is going on in order to fulfill a business capability.
+                In this article we additionally argue that you need to balance orchestration and choreography in a microservices architecture in order to be able to understand, manage and change the system...
+              </p>
+              <p>
+                <a href="https://www.infoq.com/articles/monitor-workflow-collaborating-microservices">Read more...</a>
+              </p>
+
 
               <div style="text-align: center;">
                 <img src="https://res.infoq.com/articles/events-workflow-management/en/resources/6fig3-1513669723708.png" class="blog-preview">
@@ -69,7 +97,7 @@
               </p>
               <p>
                 <a href="https://www.infoq.com/articles/events-workflow-automation">Read more...</a>
-              </p>
+</p>              
         </div>     
       </div> <!-- row -->
 

@@ -10,7 +10,7 @@
 <?php
 include("airtable-key.php");
 
-$url = "https://api.airtable.com/v0/" . $base . "/Conferences?view=ConferenceDetailsForPHP";
+$url = "https://api.airtable.com/v0/" . $base . "/Conferences?view=Conferences%20Working%20Sheet";
 
 $headers = array(
     'Authorization: Bearer ' . $api_key
@@ -29,14 +29,26 @@ curl_close($ch);
 
 $data = json_decode($result, true);
 
+function echoIfSet($name, $array, $arrayIndex) {
+    if (array_key_exists($arrayIndex, $array)) {
+       echo('<li><b>' . $name . ':</b> ' . $array[$arrayIndex] . '</li>');
+    } else {
+       echo('<li><b>' . $name . ':</b> -</li>');
+    }
+}
+
 for($i=0;$i<count($data["records"]);$i++) {
   if (isset($_GET['conference']) && $_GET['conference']==$data["records"][$i]['fields']['Conference']) {
     echo('<ul>');
-    echo('<li><b>Date:</b> ' . $data["records"][$i]['fields']['Date from'] . ' - ' . $data["records"][$i]['fields']['Date to'] . "</li>");
-    echo('<li><b>Attendees approx:</b> ' . $data["records"][$i]['fields']['Attendees'] . "</li>");
-    echo('<li><b>Booth Staff:</b> ' . implode(", ", $data["records"][$i]['fields']['Booth Staffing']) . "</li>");
-    echo('<li><b>Booth Setup DRI:</b> ' . $data["records"][$i]['fields']['Booth Setup DRI'] . "</li>");
-    echo('<li><b>Booth Teardown DRI:</b> ' . $data["records"][$i]['fields']['Booth Teardown DRI'] . "</li>");
+    echo('<li><b>Date:</b> ' . $data["records"][$i]['fields']['Date from'] . ' -- ' . $data["records"][$i]['fields']['Date to'] . "</li>");
+    echoIfSet('Attendees approx', $data["records"][$i]['fields'], 'Attendees');
+    if (array_key_exists('Booth Staffing',  $data["records"][$i]['fields'])) {
+      echo('<li><b>Booth Staff:</b><ul><li> ' . implode("</li><li>", $data["records"][$i]['fields']['Booth Staffing']) . "</li></ul></li>");
+    } else {
+       echo('<li><b>Booth Staff:</b> -</li>');
+    }
+    echoIfSet('Booth Setup DRI', $data["records"][$i]['fields'], 'Booth Setup DRI');
+    echoIfSet('Booth Teardown DRI', $data["records"][$i]['fields'], 'Booth Teardown DRI');
     echo('</ul>');
   }
 }

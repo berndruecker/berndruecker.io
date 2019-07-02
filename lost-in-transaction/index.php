@@ -36,9 +36,9 @@
      <div class="row">
         
         <div class="col-md-4">
-          <h2><a href="http://www.slideshare.net/BerndRuecker/2018-lost-in-transaction" target="_blank">Slides</a></h2>
+          <h2><a href="http://www.slideshare.net/BerndRuecker/2019-lost-in-transaction" target="_blank">Slides</a></h2>
 
-          <iframe src="https://www.slideshare.net/slideshow/embed_code/key/2TCsde4jwsuy0N" width="100%" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+          <iframe src="https://www.slideshare.net/slideshow/embed_code/key/N0VtuQvceCJslL" width="100%" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
           <div style="margin-bottom:5px"> <strong> </strong>  </div>
         </div>
         <div class="col-md-4">

@@ -20,14 +20,14 @@
 <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2>My top 3 most regular talks</h2>
+          <h2>Featured talks</h2>
         </div>
       </div>
       <div class="row">
 
 
 
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div style="min-height: 250px;">           
           <h3><a href="lost-in-transaction/">Lost in transaction? Strategies to manage consistency in distributed systems</a></h3>
 
@@ -52,7 +52,7 @@
 
 
 
-        <div class="col-md-4">           
+        <div class="col-md-3">           
           <div style="min-height: 250px;">           
           <h3><a href="3-pitfalls-in-microservice-integration/">3 common pitfalls in microservice integration and how to avoid them</a></h3>
 
@@ -78,7 +78,7 @@
 
 
 
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div style="min-height: 250px;">           
           <h3><a href="complex-event-flows-in-distributed-systems/">Complex event flows in distributed systems</a></h3>
 
@@ -99,6 +99,25 @@
           </div>
           
         </div>
+
+
+
+
+        <div class="col-md-3">
+          <div style="min-height: 250px;">           
+          <h3><a href="complex-event-flows-in-distributed-systems/">Opportunities and Pitfalls of Event-Driven Utopia</a></h3>
+
+          Event-driven architectures are on the rise and come with great promises. In this talk I will go over the concepts briefly (by looking at events on the inside and outside of an application or service) and discuss advantages, but also pitfalls <a href="opportunities-and-pitfalls-of-event-driven-utopia/">... read more ...</a>
+          </div>
+
+          <h4><a href="opportunities-and-pitfalls-of-event-driven-utopia/">More details ❯</a></h4>
+
+          <h4><a href="https://www.slideshare.net/BerndRuecker/qcon-2019-opportunities-and-pitfalls-of-eventdriven-utopia" target="_blank">Slides</a></h4>
+
+          <iframe src="https://www.slideshare.net/slideshow/embed_code/key/fK11bckLsNzq3X" width="100%" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
+          <h4>Recording coming soon</h4>          
+        </div>        
       </div>
 </div>
 </div>

@@ -16,7 +16,7 @@
     </div>
       <div class="row">
         <div class="col-md-5">
-          <p><img src='assets/img/en.png' height='20px'></span> Throughout my 15+ years in software development, I have helped automating highly scalable core workflows at global companies including T-Mobile, Lufthansa and Zalando. I have contributed to various open source workflow engines. I am co-founder and chief technologist of Camunda, an open source software company reinventing workflow automation. I co-authored "Real-Life BPMN," a popular book about workflow modeling and automation, now in its fifth edition and available in English, German and Spanish. I regularly speak at conferences and write for various magazines. I am currently focused on new workflow automation paradigms that fit into modern architectures around distributed systems, microservices, domain-driven design, event-driven architecture and reactive systems.
+          <p><img src='assets/img/en.png' height='20px'></span> I have been the in the software development field for more than 15 years, automating highly scalable workflows at global companies including T-Mobile, Lufthansa and Zalando and contributing to various open source workflow engines. I’m Co-Founder and Chief Technologist of Camunda – an open source software company reinventing workflow automation. Along with my Co-Founder, I wrote "Real-Life BPMN," a popular book about workflow modeling and automation. I regularly speak at international conferences and write for various magazines, focusing on new workflow automation paradigms that fit into modern architectures around distributed systems, microservices, domain-driven design, event-driven architecture and reactive systems.
           </p>
         </div>
         <div class="col-md-5">

@@ -105,7 +105,7 @@
 
         <div class="col-md-3">
           <div style="min-height: 250px;">           
-          <h3><a href="complex-event-flows-in-distributed-systems/">Opportunities and Pitfalls of Event-Driven Utopia</a></h3>
+          <h3><a href="opportunities-and-pitfalls-of-event-driven-utopia/">Opportunities and Pitfalls of Event-Driven Utopia</a></h3>
 
           Event-driven architectures are on the rise and come with great promises. In this talk I will go over the concepts briefly (by looking at events on the inside and outside of an application or service) and discuss advantages, but also pitfalls <a href="opportunities-and-pitfalls-of-event-driven-utopia/">... read more ...</a>
           </div>

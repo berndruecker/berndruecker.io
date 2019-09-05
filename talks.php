@@ -68,7 +68,10 @@
             <h3>Past articles and podcasts</h3>          
              <table >    
 
+  <tr><td><p>2019-05 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoWorld</p><a href='https://www.infoworld.com/article/3391592/how-to-tame-event-driven-microservices.html'>How to tame event-driven microservices  </a></td></tr>
+
   <tr><td><p>2019-02 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> InfoQ</p><a href='https://www.infoq.com/articles/monitor-workflow-collaborating-microservices'>Monitoring and Managing Workflows Across Collaborating Microservices </a></td></tr>
+
 <tr><td><p>2019-01 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> SE-Radio</p><a href='http://www.se-radio.net/2019/01/episode-351-bernd-rucker-on-orchestrating-microservices-with-workflow-management/'>Orchestrating Microservices with Workflow Management</a></td></tr>
 
 <tr><td><p>2018-04 <span title='In English language'><img src='assets/img/en.png' height='20px'></span> TheNewStack</p><a href='https://thenewstack.io/5-workflow-automation-use-cases-you-might-not-have-considered/'>5 Workflow Automation Use Cases You Might Not Have Considered</a></td></tr>

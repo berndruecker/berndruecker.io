@@ -114,9 +114,15 @@
 
           <h4><a href="https://www.slideshare.net/BerndRuecker/qcon-2019-opportunities-and-pitfalls-of-eventdriven-utopia" target="_blank">Slides</a></h4>
 
-          <iframe src="https://www.slideshare.net/slideshow/embed_code/key/fK11bckLsNzq3X" width="100%" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+            <iframe src="https://www.slideshare.net/slideshow/embed_code/key/fK11bckLsNzq3X" width="100%" height="250" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
 
-          <h4>Recording coming soon</h4>          
+          <h4><a href="https://vimeo.com/362507687">Recording</a> from <a href="https://2019.javazone.no/program/b56b57d6-1675-4491-af8a-cee388b4664f">JavaZone Oslo</a></h4>
+
+            <div style="padding:56.25% 0 0 0;position:relative;">
+              <iframe src="https://player.vimeo.com/video/362507687?color=ff9933&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
         </div>        
       </div>
 </div>

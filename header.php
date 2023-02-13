@@ -55,7 +55,7 @@
     <![endif]-->
 
 
-    <script type="text/javascript" src="https://unpkg.com/vue"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
 <script type="text/javascript">
 
 <?php

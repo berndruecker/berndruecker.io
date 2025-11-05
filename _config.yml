@@ -1,0 +1,67 @@
+# Site
+name: "Berndruecker"
+title: Bernd Ruecker
+email: bernd@berndruecker.io
+description: >-
+  Enterprise Architecture & Engineering insights. 
+  Thoughts on software architecture, business processes, 
+  and technology leadership.
+description: "Thoughts on all things orchestration, long running processes and developer-friendly automation technology."
+logo: 'assets/images/bernd.jpg'
+favicon: 'assets/images/logo.jpg'
+baseurl: ""
+url: "https://berndruecker.io"
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  Bernd Ruecker:
+    name: Bernd Ruecker
+    display_name: Bernd Ruecker
+    avatar: 'assets/images/bernd.jpg'
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: bernd@berndruecker.io
+    web: https://berndruecker.io
+    twitter: https://twitter.com/berndruecker
+    description: "Thoughts on all things orchestration, long running processes and developer-friendly automation technology."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 18
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

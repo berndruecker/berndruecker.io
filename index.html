@@ -1,0 +1,114 @@
+---
+layout: default
+title: Home
+---
+
+
+<!-- Books
+================================================== -->
+<section class="books-section">
+    <div class="section-title">
+        <h2><span>Books</span></h2>
+    </div>
+    <div class="row">
+        
+        <!-- Book 1: Enterprise Process Orchestration -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="row g-0">
+                    <div class="col-5">
+                        <a href="https://www.amazon.de/dp/1394309678" target="_blank">
+                            <img src="{{ site.baseurl }}/assets/images/cover-enterprise-process-orchestration.jpg" class="book-cover-home" alt="Enterprise Process Orchestration">
+                        </a>
+                    </div>
+                    <div class="col-7">
+                        <div class="card-body p-2">
+                            <h5 class="card-title h6">
+                                <a class="text-dark" href="https://www.amazon.de/dp/1394309678" target="_blank">Enterprise Process Orchestration</a>
+                            </h5>
+                            <p class="card-text small">A hands-on guide to strategy, team structures, and technology</p>
+                            <p class="card-text"><small class="text-muted">Wiley, 2024</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Book 2: Practical Process Automation -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="row g-0">
+                    <div class="col-5">
+                        <a href="https://www.amazon.com/dp/149206145X" target="_blank">
+                            <img src="{{ site.baseurl }}/assets/images/practical-process-automation.jpg" class="book-cover-home" alt="Practical Process Automation">
+                        </a>
+                    </div>
+                    <div class="col-7">
+                        <div class="card-body p-2">
+                            <h5 class="card-title h6">
+                                <a class="text-dark" href="https://www.amazon.com/dp/149206145X" target="_blank">Practical Process Automation</a>
+                            </h5>
+                            <p class="card-text small">Orchestration and Integration in Microservices and Cloud Native Architectures</p>
+                            <p class="card-text"><small class="text-muted">O'Reilly, 2021</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Book 3: Real-Life BPMN -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="row g-0">
+                    <div class="col-5">
+                        <a href="https://www.amazon.com/dp/B0F9YP459S" target="_blank">
+                            <img src="{{ site.baseurl }}/assets/images/real-life-bpmn.jpg" class="book-cover-home" alt="Real-Life BPMN">
+                        </a>
+                    </div>
+                    <div class="col-7">
+                        <div class="card-body p-2">
+                            <h5 class="card-title h6">
+                                <a class="text-dark" href="https://www.amazon.com/dp/B0F9YP459S" target="_blank">Real-Life BPMN</a>
+                            </h5>
+                            <p class="card-text small">Using BPMN 2.0 to Analyze, Improve, and Automate Processes</p>
+                            <p class="card-text"><small class="text-muted">5th Edition, 2025</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>Blog posts</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+        {% include postbox.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div>
+

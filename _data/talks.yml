@@ -1,13 +1,37 @@
+- date: 2025-11-26
+  conference: "iSAQB Software Architecture Gathering 2025"
+  location: Berlin, Germany
+  title: "Agentic Orchestration: Long-Running AI Agents in Enterprise Architectures"
+  slides: /assets/slides/2025-11-26-Agentic-Orchestration-Long-Running-AI-Agents-in-Enterprise-Architectures.pdf
+  video: 
+  abstract:
+  description: |
+    AI is changing the world – but so far, its impact often seems limited to boosting personal productivity. But what if we want to embed AI into the heart of core business processes, also in regulated industries? How can we operationalize AI without losing control, oversight, or governance?
+    In this talk, we explore Agentic Orchestration: enabling an AI agent to act dynamically within the well-defined guardrails of BPMN-based process models.
+    By exposing BPMN constructs (such as service invocations, flows, or subprocesses) as “tools” to an agent, we combine structured orchestration with autonomous decision-making. This creates a powerful blend of determinism and flexibility – making AI viable for critical, auditable, and long-running workflows.
+    We’ll also explore the architectural patterns behind long-running agents – whenever AI needs to interact with the outside world over time to solve complex problems. Topics include monitoring, versioning, and state management – and how BPMN and related tooling can act as a governance layer for AI behavior.
+    This talk is not about promoting a product. It’s about sharing architectural insights into how AI can be integrated deeply – and safely – into enterprise systems. And it aims to spark a discussion on patterns, pitfalls, and emerging best practices.
+  code: 
+  language: en
+
 - date: 2025-11-18
   conference: "Low Code Days"
   location: Nurremberg, Germany
   title: "What does low-code mean to you and the software you build?"
   slides: /assets/slides/2025-11-18-What-does-low-code-mean-to-you-and-the-software-you-build.pdf
   video: 
-  abstract: 
+  abstract:
+  description: | 
+    Low-Code ist Hype – doch was steckt wirklich dahinter?
+    Kann es komplexe, reale Herausforderungen lösen – oder bleibt es bei Spielzeug-Szenarien?
+    Was bedeutet das für unsere Art, Software zu entwickeln?
+    Und vor allem: Was heißt das für uns als Softwareentwickler?
+    Müssen wir jetzt alle Low-Code-Tools nutzen – oder übernehmen künftig die Fachbereiche die Entwicklung komplett? Und wie verhindern wir einen Wartungsalbtraum aus wackligen Low-Code-Lösungen?
+    In dieser Keynote teile ich über zehn Jahre Erfahrung mit Low-Code– insbesondere im Bereich Prozessautomatisierung – und biete eine differenzierte Perspektive, die auch den Einfluss von KI auf die Softwareentwicklung einbezieht.
+    Meine These: Low-Code kann Softwareentwicklung sinnvoll ergänzen – aber nur, wenn wir als Engineers die Führung übernehmen. Wenn IT zu langsam oder zu weit weg vom „Business“ agiert, wird dieses selbst handeln – meist, indem es die nächste glänzende Plattform kauft, die Geschwindigkeit verspricht, aber Chaos bringt.
+    Anhand von Erfolgs- und Misserfolgsgeschichten zeige ich, wo Low-Code Sinn ergibt, wo es scheitert – und wie Engineers seine Rolle aktiv gestalten können. Du gehst mit einem klareren mentalen Modell und praktischen Leitplanken nach Hause, um den Einsatz von Low-Code im eigenen Unternehmen gezielt mitgestalten zu können.
   code: 
-  language: de
-  description: 
+  language: de  
 
 - date: 2024-06-05
   conference: "O'Reilly"

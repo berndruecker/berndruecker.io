@@ -174,8 +174,9 @@ layout: default
                 {% if talk.video and talk.video != "" %}
                 <a href="{{ talk.video }}" target="_blank">▶️ Video</a>
                 {% endif %}
-                {% if talk.abstract and talk.abstract != "" %}
-                <a href="{{ talk.abstract }}" target="_blank">📝 Abstract</a>
+                {% assign conference_link = talk.conference_link | default: talk.abstract %}
+                {% if conference_link and conference_link != "" %}
+                <a href="{{ conference_link }}" target="_blank">🔗 Event Page</a>
                 {% endif %}
                 {% if talk.code and talk.code != "" %}
                 <a href="{{ talk.code }}" target="_blank">💻 Code</a>
@@ -195,6 +196,8 @@ layout: default
 </div>
 
 <script>
+    // (no list-level JS needed)
+
     function openPDFViewer(pdfUrl) {
         const modal = document.getElementById('pdfModal');
         const pdfEmbed = document.getElementById('pdf-viewer-container');

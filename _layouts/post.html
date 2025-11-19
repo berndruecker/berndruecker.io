@@ -24,12 +24,18 @@ post_class: post-template
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
 
-                {% if page.canonical_url %}
-                <p class="text-muted small mb-1">
+                {% if page.canonical %}
+                <p class="text-muted small mb-3">
                     Originally published on
-                    <a href="{{ page.canonical_url }}" rel="canonical external noopener" target="_blank">
-                        {{ page.canonical_url | replace: 'https://', '' | replace: 'http://', '' }}
+                    {% if page.canonical contains 'camunda.com' %}
+                    <a href="{{ page.canonical }}" rel="canonical external noopener" target="_blank">camunda.com</a>
+                    {% elsif page.canonical contains 'medium.com' %}
+                    <a href="{{ page.canonical }}" rel="canonical external noopener" target="_blank">medium.com</a>
+                    {% else %}
+                    <a href="{{ page.canonical }}" rel="canonical external noopener" target="_blank">
+                        {{ page.canonical | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first }}
                     </a>
+                    {% endif %}
                 </p>
                 {% endif %}
 

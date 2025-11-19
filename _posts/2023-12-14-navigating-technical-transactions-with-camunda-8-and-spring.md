@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "spring", "event-driven"]
 author: Bernd Ruecker
 excerpt: "Let’s use the simple BPMN process below:"
+canonical: https://camunda.com/blog/2023/12/navigating-technical-transactions-camunda-8-spring/
 ---
 ### Navigating Technical Transactions with Camunda 8 and Spring
 

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "spring", "event-driven", "architecture"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/0WtK_PfIw0fz737Sy"
+canonical: https://camunda.com/blog/2022/02/how-to-write-glue-code-without-java-delegates-in-camunda-cloud/
 ---
 ### How to write glue code without Java Delegates in Camunda Cloud
 Introduced in 2015, the [external task pattern](https://camunda.com/blog/2015/11/external-tasks/) is on the rise. Instead of the workflow engine actively calling some code (push), the external task pattern adds the work in a sort of queue and lets workers pull for it. This method is also known as publish/subscribe. The workflow engine publishes work, and workers subscribe to be able to do it.

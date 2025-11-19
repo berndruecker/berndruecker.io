@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "spring", "event-driven", "architecture"]
 author: Bernd Ruecker
 excerpt: "In today’s blog post I want to explain the reasoning behind this move and why we recommend a remote engine. However, let’s first understand why the embedded ..."
+canonical: https://camunda.com/blog/2022/02/moving-from-embedded-to-remote-workflow-engines/
 ---
 ### Moving from embedded to remote workflow engines
 For a long time, [we have advocated](https://camunda.com/best-practices/deciding-about-your-stack/) for an architecture that runs the Camunda workflow engine[ embedded into your own Java application](https://docs.camunda.org/manual/latest/introduction/architecture/#embedded-process-engine), preferably via [the Camunda Spring Boot Starter](https://github.com/camunda/camunda-bpm-platform/tree/master/spring-boot-starter). But over time, we gradually moved away from this default recommendation in favor of a remote engine. In [Zeebe](https://docs.camunda.io/docs/components/zeebe/zeebe-overview/), we don’t support embedding the engine at all.

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "orchestration", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1xjyrA3bIjQTrAxi2fpEK0A.png"
+canonical: https://camunda.com/blog/2021/03/camunda-closes-100-million-series-b-funding-round-to-automate-any-process-anywhere/
 ---
 ### Camunda Closes $100 Million Series B Funding Round to Automate Any Process, Anywhere
 

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1uMXbfqZ7-wOqCH9ZKNhQvg.png"
+canonical: https://camunda.com/blog/2020/05/how-to-orchestrate-aws-lambda-using-camunda-cloud/
 ---
 ### Orchestrate AWS Lambda using Camunda Cloud
 

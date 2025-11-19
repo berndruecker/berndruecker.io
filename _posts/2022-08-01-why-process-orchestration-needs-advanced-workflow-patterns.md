@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "orchestration"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/0nv9u3COivmUgd6-y"
+canonical: https://camunda.com/blog/2022/07/why-process-orchestration-needs-advanced-workflow-patterns/
 ---
 ### Why Process Orchestration Needs Advanced Workflow Patterns
 Life is seldom a straight line, and the same is true for processes. Therefore, you must be able to accurately express all the things happening in your business processes for proper end-to-end process orchestration. This requires [workflow patterns](https://docs.camunda.io/docs/components/concepts/workflow-patterns/) that go beyond basic control flow patterns (like sequence or condition). If your orchestration tool does not provide those advanced workflow patterns, you will experience confusion amongst developers, you will need to implement time-consuming workarounds, and you will end up with confusing models. Let’s explore this by examining an example of why these advanced workflow patterns matter in today’s blog post.

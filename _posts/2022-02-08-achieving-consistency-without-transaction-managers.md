@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "I will first briefly explain what transaction managers are and why you might not have them at your disposal in modern architecture. I will also sketch a solu..."
+canonical: https://camunda.com/blog/2022/02/achieving-consistency-without-transaction-managers/
 ---
 ### Achieving consistency without transaction managers
 Do you need to integrate multiple components without the help of [ACID](https://en.wikipedia.org/wiki/ACID) (atomicity, consistency, isolation, and durability) transaction managers? Then, this blog post is for you.

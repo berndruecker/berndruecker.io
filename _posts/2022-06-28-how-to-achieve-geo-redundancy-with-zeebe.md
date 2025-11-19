@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "orchestration", "architecture"]
 author: Bernd Ruecker
 excerpt: "For example, a recent customer project in a big financial institution connected a data center in Europe with one in the United States and this did not affect..."
+canonical: https://camunda.com/blog/2022/06/how-to-achieve-geo-redundancy-with-zeebe/
 ---
 ### How to Achieve Geo-redundancy with Zeebe
 Camunda Platform 8 reinvented the way an orchestration and workflow engine works. We applied modern distributed system concepts and can now even allow geo-redundant workloads, often referred to as multi-region active-active clusters. Using this technology, organizations can build resilient systems that can withstand disasters in the form of a complete data center outage.

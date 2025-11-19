@@ -1,0 +1,232 @@
+---
+layout: default
+---
+
+<style>
+.talks-container {
+    max-width: 100%;
+    margin: 0;
+}
+
+.talk-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.talk-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.talk-date {
+    color: #666;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.talk-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.talk-meta {
+    color: #888;
+    font-size: 0.95em;
+    margin-bottom: 10px;
+}
+
+.talk-meta i {
+    margin-right: 5px;
+}
+
+.talk-meta .language-badge {
+    display: inline-block;
+    padding: 2px 6px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-left: 10px;
+    color: #666;
+}
+
+.talk-description {
+    margin-top: 10px;
+    color: #555;
+}
+
+.talk-links {
+    margin-top: 15px;
+}
+
+.talk-links a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background 0.3s ease;
+}
+
+.talk-links a:hover {
+    background: #5a6268;
+    color: white;
+}
+
+/* PDF Viewer Modal */
+.pdf-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.pdf-modal-content {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    margin: 5% auto;
+    background-color: #525252;
+}
+
+.pdf-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10000;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.pdf-close:hover,
+.pdf-close:focus {
+    color: #bbb;
+}
+
+#pdf-viewer-container {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<section>
+    <div class="section-title">
+        <h2><span>{{ page.title }}</span></h2>
+    </div>
+
+    <div class="article-post">
+        {{content}}
+    </div>
+
+    <div class="talks-container">
+        {% assign talks_sorted = site.data.talks | sort: 'date' | reverse %}
+        {% for talk in talks_sorted %}
+        {% assign talk_id = talk.date | append: '-' | append: talk.conference | slugify %}
+        <div class="talk-card" id="{{ talk_id }}">
+            <div class="talk-date">{{ talk.date | date: "%B %Y" }}</div>
+            <div class="talk-title">
+                <a href="#{{ talk_id }}" style="color: inherit; text-decoration: none;">{{ talk.title }}</a>
+            </div>
+            <div class="talk-meta">
+                <span>{{ talk.conference }}</span>
+                {% if talk.location %}
+                <span> • {{ talk.location }}</span>
+                {% endif %}
+                {% assign lang = talk.language | default: 'en' %}
+                {% if lang == 'en' %}
+                <span class="language-badge" title="English">EN</span>
+                {% elsif lang == 'de' %}
+                <span class="language-badge" title="German">DE</span>
+                {% endif %}
+            </div>
+            {% if talk.description and talk.description != "" %}
+            <div class="talk-description">{{ talk.description }}</div>
+            {% endif %}
+            <div class="talk-links">
+                {% if talk.slides %}
+                    {% if talk.slides contains 'http' %}
+                    <a href="{{ talk.slides }}" target="_blank">📄 Slides</a>
+                    {% else %}
+                    <a href="#" onclick="openPDFViewer('{{ talk.slides }}'); return false;">📄 Slides</a>
+                    {% endif %}
+                {% endif %}
+                {% if talk.video and talk.video != "" %}
+                <a href="{{ talk.video }}" target="_blank">▶️ Video</a>
+                {% endif %}
+                {% if talk.abstract and talk.abstract != "" %}
+                <a href="{{ talk.abstract }}" target="_blank">📝 Abstract</a>
+                {% endif %}
+                {% if talk.code and talk.code != "" %}
+                <a href="{{ talk.code }}" target="_blank">💻 Code</a>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- PDF Viewer Modal -->
+<div id="pdfModal" class="pdf-modal">
+    <span class="pdf-close" onclick="closePDFViewer()">&times;</span>
+    <div class="pdf-modal-content">
+        <embed id="pdf-viewer-container" type="application/pdf" width="100%" height="100%" />
+    </div>
+</div>
+
+<script>
+    function openPDFViewer(pdfUrl) {
+        const modal = document.getElementById('pdfModal');
+        const pdfEmbed = document.getElementById('pdf-viewer-container');
+        
+        // Set the PDF source with base URL
+        pdfEmbed.src = '{{ site.baseurl }}' + pdfUrl;
+        
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closePDFViewer() {
+        const modal = document.getElementById('pdfModal');
+        const pdfEmbed = document.getElementById('pdf-viewer-container');
+        
+        modal.style.display = 'none';
+        pdfEmbed.src = '';
+        document.body.style.overflow = 'auto';
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        const modal = document.getElementById('pdfModal');
+        if (event.target == modal) {
+            closePDFViewer();
+        }
+    }
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            closePDFViewer();
+        }
+    });
+</script>

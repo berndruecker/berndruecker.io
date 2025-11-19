@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1SpsVjtopm9nYYXgXIWVmaw.png"
+canonical: https://camunda.com/blog/2021/05/service-integration-patterns-with-bpmn-and-camunda-cloud/
 ---
 ### Service Integration Patterns With BPMN And Camunda Cloud
 

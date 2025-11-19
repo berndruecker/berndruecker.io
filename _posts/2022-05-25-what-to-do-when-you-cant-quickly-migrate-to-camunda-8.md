@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "- You can’t leverage Camunda 8 — SaaShttps://camunda.com/get-started, but also don’t have Kubernetes at your disposal to install the platform self-managedhtt..."
+canonical: https://camunda.com/blog/2022/05/what-to-do-when-you-cant-quickly-migrate-to-camunda-8/
 ---
 ### What to do When You Can’t Quickly Migrate to Camunda 8
 

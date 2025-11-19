@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "spring", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "> How can we scale Camunda adoption within the enterprise?"
+canonical: https://camunda.com/blog/2020/07/from-project-to-program-scaling-camunda-adoption-in-your-company/
 ---
 ### From Project to Program: Scaling Camunda Adoption in Your Company
 

@@ -7,6 +7,7 @@ tags: ["camunda", "architecture"]
 author: Bernd Ruecker
 excerpt: "- Green: Open source license.
 - Green stripes: Source-available license for the curious, the difference between open source and source-available is explained..."
+canonical: https://camunda.com/blog/2022/05/how-open-is-camunda-platform-8/
 ---
 ### How Open is Camunda Platform 8?
 With [Camunda Platform 8 being available to the public](https://camunda.com/blog/2022/04/camunda-platform-8-0-released-whats-new/), we regularly answer questions about our open source strategy and the licenses for its various components. Let’s sort this out in today’s blog post by looking at the specifics of the components, sketching a path to put Camunda 8 into production without the need to pay us any money, and the difference between open source and source-available licenses.

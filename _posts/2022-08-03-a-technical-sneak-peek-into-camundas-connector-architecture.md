@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "orchestration", "spring", "event-driven", "architecture"]
 author: Bernd Ruecker
 excerpt: "Since then, many people have asked us what a connector is, how such a connector is developed, and how it can be used in Self-Managed. We haven’t yet publishe..."
+canonical: https://camunda.com/blog/2022/07/a-technical-sneak-peek-into-camundas-connector-architecture/
 ---
 ### A Technical Sneak Peek into Camunda’s Connector Architecture
 

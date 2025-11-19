@@ -1,0 +1,2138 @@
+- date: 2025-11-18
+  conference: "Low Code Days"
+  location: Nurremberg, Germany
+  title: "What does low-code mean to you and the software you build?"
+  slides: /assets/slides/2025-11-18-What-does-low-code-mean-to-you-and-the-software-you-build.pdf
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2024-06-05
+  conference: "O'Reilly"
+  location: Online
+  title: "What does low-code mean to you and the software you build?"
+  slides: /assets/slides/2024-06-05-Mastering-long-running-processes-in-modern-architectures.pdf
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2024-12-03
+  conference: "SEACON"
+  location: Online
+  title: "Enterprise Process Orchestration"
+  slides: /assets/slides/2024-12-03-Enterprise-Process-Orchestration.pdf
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2024-04-08
+  conference: "QCon London"
+  location: London, UK
+  title: "Are you done yet? Mastering long-running processes in modern architectures"
+  slides: https://www.slideshare.net/slideshow/qcon-london-mastering-longrunning-processes-in-modern-architectures/267180175
+  video: https://www.infoq.com/presentations/long-running-processes/
+  abstract: https://qconlondon.com/presentation/apr2024/are-you-done-yet-mastering-long-running-processes-modern-architectures
+  code: 
+  language: en
+  description: 
+
+- date: 2024-01-30
+  conference: "OOP"
+  location: Munic, Germany
+  title: "Loosely or lousily coupled? Understanding communication patterns in microservices architectures"
+  slides: /assets/slides/2024-01-30-Loosely-or-lousily-coupled-Understanding-communication-patterns-in-microservices-architectures.pdf
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2024-01-29
+  conference: "OOP"
+  location: Munic, Germany
+  title: "How Process Orchestration Increases Agility Without Harming Architecture "
+  slides: /assets/slides/2024-01-30-How-Process-Orchestration-Increases-Agility-Without-Harming-Architecture.pdf
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2024-01-17
+  conference: "We are Developers Live"
+  location: Online
+  title: "Are you done yet? Mastering long-running processes in modern architectures"
+  slides: https://www.slideshare.net/slideshows/wearedevelopers-live-2024-mastering-longrunning-processes-in-modern-architectures/265642902
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2023-12-11
+  conference: "IT Tage"
+  location: Frankfurt, Germany
+  title: "Herausforderungen und Chancen der unternehmensweiten Prozessautomatisierung"
+  slides: /assets/slides/2023-12-12-Challenges-and-Opportunities-of-enterprise-wide-process-automation.pdf
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2023-12-11
+  conference: "IT Tage"
+  location: Frankfurt, Germany
+  title: "Live coding gegen Integrationsprobleme"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2023-11-29
+  conference: "Software Architecture Gathering Digital"
+  location: Online
+  title: "How Process Orchestration Increases Agility Without Harming Architecture"
+  slides: https://www.slideshare.net/BerndRuecker/isaqb-software-architecture-gathering-2023-how-process-orchestration-increases-agility-without-harming-architecture
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2023-11-20
+  conference: "JCon World Online"
+  location: Online
+  title: "Live coding some (microservice) integration problems"
+  slides: https://www.slideshare.net/BerndRuecker/jcon-live-2023-lice-coding-some-integration-problems
+  video: 
+  abstract: https://jconworld2023.sched.com/event/1RRYf/live-coding-some-microservice-integration-problems
+  code: 
+  language: en
+  description: 
+
+- date: 2023-11-09
+  conference: "JFall"
+  location: Ede, Netherlands
+  title: "Process Oriented Integration"
+  slides: https://www.slideshare.net/BerndRuecker/jfall-process-oriented-integration
+  video: 
+  abstract: https://jfall.nl/timetable/#
+  code: 
+  language: en
+  description: 
+
+- date: 2023-07-13
+  conference: "Java Forum Stuttgart"
+  location: Stuttgart ,Germany
+  title: "Hyperautomation, Low-Code, RPA - alles klar?"
+  slides: /assets/slides/2023-07-13-G4-Hyperautomation-Low-Code-RPA---alles-klar.pdf
+  video: 
+  abstract: https://www.java-forum-stuttgart.de/Vortraege/
+  code: 
+  language: de
+  description: 
+
+- date: 2023-05-18
+  conference: "CraftConf"
+  location: Budapest, Hungary
+  title: "Surviving the hyperautomation low code bubble"
+  slides: https://www.slideshare.net/BerndRuecker/craftconf-surviving-the-hyperautomation-low-code-bubbl
+  video: https://www.youtube.com/watch?v=C8HhC-h3W_I&list=PLcTa2e7_ENN_ZmTmGC_AFh1ArFgdEb5Z6&index=45
+  abstract: https://craft-conf.com/2023/talk/surviving-the-hyperautomation-low-code-bubble
+  code: 
+  language: en
+  description: 
+
+- date: 2022-07-07
+  conference: "Java Forum Stuttgart"
+  location: Stuttgart, Germany  
+  title: "Kafka Meets Workflow Engines"
+  slides: /assets/slides/2022-07-07-Kafka-Meets-Workflow-Engines.pdf
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2022-05-03
+  conference: "JAX"
+  location: Mainz, Germany
+  title: "Understanding Communication Patterns in Microservices Architectures"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2021-10-11
+  conference: "Software Architecture Gathering"
+  location: Online
+  title: "Balancing Choreography and Orchestration"
+  slides: 
+  video: 
+  abstract: https://conferences.isaqb.org/software-architecture-gathering/
+  code: 
+  language: en
+  description: 
+
+- date: 2021-10-05
+  conference: "JCon"
+  location: Online
+  title: "Loosely or lousy coupled? Understanding communication patterns in microservices architectures"
+  slides: https://www.slideshare.net/BerndRuecker/jcon-2021-loosely-or-lousily-coupled
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2021-09-22
+  conference: "Java Forum Stuttgart"
+  location: Stuttgart, Germany
+  title: "The Process Automation Map"
+  slides: https://www.slideshare.net/BerndRuecker/jfs-2021-the-process-automation-map
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2021-09-14
+  conference: "Kafka Summit Americas"
+  location: Online
+  title: "Apache Kafka Meets Workflow Engines"
+  slides: https://www.slideshare.net/BerndRuecker/kafka-summit-2021-apache-kafka-meets-workflow-engines
+  video: https://www.confluent.io/events/kafka-summit-americas-2021/apache-kafka-meets-workflow-engines/
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2021-05-04
+  conference: "JAX"
+  location: Mainz, Germany
+  title: "Flexibilität vs. Chaos. Geschäftsprozesse in modernen Architekturen automatisieren."
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2021-03-16
+  conference: "JavaLand"
+  location: Cologne, Germany
+  title: "Opportunities and Pitfalls of Event-Driven Utopia"
+  slides: 
+  video: 
+  abstract: https://programm.javaland.eu/2021/#/scheduledEvent/606424
+  code: 
+  language: de
+  description: 
+
+- date: 2021-02-17
+  conference: "DevNexus"
+  location: Online
+  title: ""
+  slides: https://berndruecker.io/lost-in-transaction/
+  video: https://www.youtube.com/watch?v=U_qy0j8B7b8&feature=emb_title
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2021-02-09
+  conference: "OOP"
+  location: Munic, Germany
+  title: "Rethink Processes and User Experience to Leverage The Full Potential Of Your Hipster Architecture"
+  slides: https://www.slideshare.net/BerndRuecker/oop-2021-leverage-the-full-potential-of-your-hipster-architecture
+  video: 
+  abstract: https://www.oop-konferenz.de/oop2021/english/program/conference-program.html#item-2178
+  code: 
+  language: de
+  description: 
+
+- date: 2020-12-14
+  conference: "CloudNative eXchange"
+  location: London, UK
+  title: "Process Automation in Cloud-Native Architectures"
+  slides: /assets/slides/2020-12-14-Process-Automation-in-Modern-Architectures.pdf
+  video: https://skillsmatter.com/skillscasts/14961-process-automation-in-cloud-native-architectures
+  abstract: https://skillsmatter.com/skillscasts/14961-process-automation-in-cloud-native-architectures
+  code: 
+  language: en
+  description: 
+
+- date: 2020-11-16
+  conference: "QCon San Francisco"
+  location: San Francisco, US
+  title: "Balancing Choreography and Orchestration"
+  slides: https://www.slideshare.net/BerndRuecker/gotopia-2020-balancing-choreography-and-orchestration
+  video: 
+  abstract: https://plus.qconferences.com/plus2020/presentation/balancing-choreography-and-orchestration
+  code: 
+  language: en
+  description: 
+
+- date: 2020-11-10
+  conference: "Reactive Summit"
+  location: Online
+  title: "Orchestration, Conversations and the Saga Pattern: How State Helps you to Stay Reactive"
+  slides: https://www.slideshare.net/BerndRuecker/reactive-summit-2020-how-state-helps-you-to-stay-reactive
+  video: https://www.youtube.com/watch?v=-W_1HPm0e-w&list=PLKKQHTLcxDVbJtlef15003TYaEkq1ZY8c&index=23
+  abstract: https://reactivesummit2020.sched.com/event/eHp1/orchestration-conversations-and-the-saga-pattern-how-state-helps-you-to-stay-reactive?iframe=no
+  code: 
+  language: en
+  description: 
+
+- date: 2020-11-10
+  conference: "Gotopia Virtual"
+  location: Online
+  title: "Balancing Choreography and Orchestration"
+  slides: https://www.slideshare.net/BerndRuecker/gotopia-2020-balancing-choreography-and-orchestration
+  video: 
+  abstract: https://gotopia.eu/november-2020/schedule?date=2020-11-11
+  code: 
+  language: en
+  description: 
+
+- date: 2020-11-03
+  conference: "WJAX"
+  location: Munic, Germany
+  title: "Balancing Choreography and Orchestration"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2020-10-26
+  conference: "JCon"
+  location: Düsseldorf, Germany
+  title: "Moving beyond request-reply: how smart APIs are different "
+  slides: 
+  video: https://www.youtube.com/watch?v=F3zIGmN-Lq
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2020-10-13
+  conference: "CraftConf"
+  location: Budapest, Hungary
+  title: "Opportunities and Pitfalls of Event-Driven Utopia"
+  slides:
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2020-10-13
+  conference: "Java User Group Hamburg"
+  location: Hamburg, Germany
+  title: "Workflow Engines - lovelier than you expect and more diverse than you think!"
+  slides: /assets/slides/2020-10-13-Workflow-Engines---lovelier-than-you-think.pdf
+  video: 
+  abstract: https://www.meetup.com/jug-hamburg/events/273568359/
+  code: 
+  language: de
+  description: 
+
+- date: 2020-10-06
+  conference: "JAX London"
+  location: London, UK
+  title: "Leverage the Full Potential of Your Hipster Architecture!"
+  slides: /assets/slides/2020-10-06-Leverage-The-Full-Potential-Of-Your-Hipster-Architecture.pdf
+  video: 
+  abstract: https://jaxlondon.com/software-architecture-design/leverage-the-full-potential-of-your-hipster-architecture/
+  code: 
+  language: en
+  description: 
+
+- date: 2020-09-30
+  conference: "London Java Community"
+  location: Online
+  title: "Automating Processes in Modern Hipster Architectures"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2020-09-24
+  conference: "Rhein JUG"
+  location: Online
+  title: "Automating Processes in Modern Architectures"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/rheinJUG/events/272817017/
+  code: 
+  language: de
+  description: 
+
+- date: 2020-09-15
+  conference: "GOTOpia Europe"
+  location: Online
+  title: "Automating Processes in Modern Architectures"
+  slides: https://www.slideshare.net/BerndRuecker/gotopia-2020-balancing-choreography-and-orchestration
+  video: https://www.youtube.com/watch?v=zt9DFMkjkEA
+  abstract: https://gotopia.eu/2020/schedule?date=2020-09-16
+  code: 
+  language: en
+  description: 
+
+- date: 2020-09-08
+  conference: "JAX"
+  location: Mainz, Germany
+  title: "Opportunities and Pitfalls of Event-driven Utopia"
+  slides: 
+  video: 
+  abstract: https://jax.de/software-architecture/opportunities-and-pitfalls-of-event-driven-utopia/
+  code: 
+  language: de
+  description: 
+
+- date: 2020-09-02
+  conference: "Camunda User Group Hannover"
+  location: Hannover, Germany
+  title: "Zeebe.io – a horizontally scalable open-source workflow engine"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2020-08-24
+  conference: "Kafka Summit"
+  location: Austin, US
+  title: "If an Event is Published to a Topic and No One is Around to Consume it, Does it Make a Sound?"
+  slides: https://www.slideshare.net/BerndRuecker/kafka-summit-2020-if-an-event-is-published-to-a-topic-and-no-one-is-around-to-consume-it-does-it-make-a-sound
+  video: https://www.confluent.io/resources/kafka-summit-2020/if-an-event-is-published-to-a-topic-and-no-one-is-around-to-consume-it-does-it-make-a-sound
+  abstract: https://events.kafka-summit.org/2020-schedule
+  code: 
+  language: en
+  description: 
+
+- date: 2020-07-16
+  conference: "Destination: Automation Live"
+  location: Online
+  title: "Automating Processes in Modern Hipster Architectures"
+  slides: /assets/slides/2020-07-16-Process-Automation.pdf
+  video: 
+  abstract: https://konghq.com/events/destination-automation/
+  code: 
+  language: en
+  description: 
+
+- date: 2020-05-14
+  conference: "AWS Community Summit"
+  location: Online
+  title: "Coordination of serverless functions"
+  slides: /assets/slides/2020-05-14-Coordination-of-Serverless-Functions---AWS-ComSum.pdf
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2020-05-11
+  conference: "MicroCPH Copenhagen"
+  location: Copenhagen, Denmark
+  title: "Balancing Choreography and Orchestration"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2020-04-27
+  conference: "Kafka Summit London"
+  location: London, England
+  title: "Balancing Choreography and Orchestration"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2020-04-23
+  conference: "Camunda Con Live"
+  location: Online
+  title: "Microservices Orchestration and Integration using Workflow Automation"
+  slides: https://www.slideshare.net/BerndRuecker/camunda-con-live-2020-keynote-microservice-orchestration-and-integration
+  video: https://camundacon.com/live/hub/
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2020-04-15
+  conference: "AllTheTalks"
+  location: Online
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: 
+  video: https://www.youtube.com/watch?v=lpgXvpsBdLU
+  abstract: 3 common pitfalls in microservice integration and how to avoid them
+  code: 
+  language: en
+  description: 
+
+- date: 2020-03-17
+  conference: "JavaLand"
+  location: Cologne, Germany
+  title: "Opportunities and Pitfalls of Event-driven Utopia"
+  slides: 
+  video: 
+  abstract: https://programm.javaland.eu/2020/#/scheduledEvent/590629
+  code: 
+  language: de
+  description: 
+
+- date: 2020-03-02
+  conference: "QCon"
+  location: Lodnon, England
+  title: "Opportunities and Pitfalls of Event-Driven Utopia"
+  slides: 
+  video: 
+  abstract: https://qconlondon.com/london2020/presentation/opportunities-and-pitfalls-event-driven-utopia
+  code: 
+  language: en
+  description: 
+
+- date: 2020-03-02
+  conference: "DDD Meetup London"
+  location: London, UK
+  title: "Zeebe.io – A workflow engine for orchestrating event-driven microservices"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/dddlondon/events/268881390/
+  code: 
+  language: en
+  description: 
+
+- date: 2020-03-02
+  conference: "QCon London"
+  location: Lodnon, England
+  title: "Moving Beyond Request-Reply: How Smart APIs Are Different"
+  slides: https://www.slideshare.net/BerndRuecker/moving-beyond-request-reply-designing-smarter-apis
+  video: https://www.infoq.com/presentations/moving-request-reply/
+  abstract: https://www.infoq.com/presentations/moving-request-reply/
+  code: 
+  language: en
+  description: 
+
+- date: 2020-02-23
+  conference: "O'Reilly Software architectures"
+  location: New York City, US
+  title: "Opportunities and Pitfalls of Event-Driven Utopia"
+  slides: https://www.slideshare.net/BerndRuecker/qcon-2019-opportunities-and-pitfalls-of-eventdriven-utopia/
+  video: https://vimeo.com/362507687
+  abstract: https://conferences.oreilly.com/software-architecture/sa-ny
+  code: 
+  language: en
+  description: 
+
+- date: 2020-02-04
+  conference: "OOP"
+  location: Munic, Germany
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: http://www.slideshare.net/BerndRuecker/2019-lost-in-transaction
+  video: https://vimeo.com/289508460
+  abstract: https://www.oop-konferenz.de/oop2020/programm/konferenzprogramm/sessiondetails/action/detail/session/di-13-8/title/lost-in-transaction-strategies-to-manage-consistency-in-distributed-systems.html?tx_dmconferences_session%5BshowRooms%5D=0&cHash=696f08915440244a86170054655855c3
+  code: 
+  language: de
+  description: 
+
+- date: 2019-12-11
+  conference: "Java User Group Nuremberg"
+  location: Nurremberg ,Germany
+  title: "Zeebe.io – The new open source project for event-driven microservices orchestration"
+  slides: 
+  video: 
+  abstract: https://www.jug-n.de/treffen/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-12-09
+  conference: "IT Tage"
+  location: Frankfurt, Germany
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: http://www.slideshare.net/BerndRuecker/2019-lost-in-transaction
+  video: https://vimeo.com/289508460
+  abstract: https://www.ittage.informatik-aktuell.de/programm/2019/lost-in-transaction-strategies-to-manage-consistency-in-distributed-systems/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-11-06
+  conference: "Serverless Computing"
+  location: London, UK
+  title: "Coordination of serverless functions"
+  slides: 
+  video: 
+  abstract: https://serverlesscomputing.london/sessions/coordination-of-serverless-functions/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-11-05
+  conference: "WJAX"
+  location: Munich, Germany
+  title: "Opportunities and Pitfalls of Event-Driven Utopia"
+  slides: 
+  video: https://youtu.be/sQSUt68JB38
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2019-11-04
+  conference: "O'Reilly Software Architecture"
+  location: Berlin, Germany
+  title: "Complex event flows in distributed systems"
+  slides: 
+  video: 
+  abstract: https://conferences.oreilly.com/software-architecture/sa-eu/schedule/2019-11-06
+  code: 
+  language: de
+  description: 
+
+- date: 2019-10-29
+  conference: "Voxxed Days Microservices"
+  location: Paris, France
+  title: "Complex event flows in distributed systems"
+  slides: 
+  video: https://www.youtube.com/watch?v=r3f9nUw5I0g&list=PLRsbF2sD7JVpajOzt2_6g8IfsoBxGPOwh&index=37&t=0s
+  abstract: https://voxxeddays.com/microservices/program/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-10-21
+  conference: "GOTO Berlin"
+  location: Berlin, Germany
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/slideshow/3-common-pitfalls-in-microservice-integration/
+  video: https://www.youtube.com/watch?v=O2-NHptllKQ&feature=youtu.be
+  abstract: https://gotober.com/2019/sessions/1054
+  code: 
+  language: de
+  description: 
+
+- date: 2019-10-09
+  conference: "Confluent Meetup"
+  location: London, UK
+  title: "Monitoring and Orchestration of Your Microservices Landscape with Kafka and Zeebe"
+  slides: https://www.slideshare.net/BerndRuecker/monitoring-and-orchestration-of-your-microservices-landscape-with-kafka-and-zeebe-meetup-180463202
+  video: 
+  abstract: https://www.meetup.com/de-DE/Apache-Kafka-London/events/264371224
+  code: 
+  language: en
+  description: 
+
+- date: 2019-10-08
+  conference: "JAX London"
+  location: London, UK
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: http://www.slideshare.net/BerndRuecker/2019-lost-in-transaction
+  video: https://vimeo.com/289508460
+  abstract: https://jaxlondon.com/microservices/lost-in-transaction-strategies-to-manage-consistency-in-distributed-systems/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-10-08
+  conference: "AWS Community Day London"
+  location: London, UK
+  title: "Lost in transaction? Strategies to manage consistency in serverless architectures"
+  slides: https://www.slideshare.net/BerndRuecker/aws-community-summit-london-2019-lost-in-transaction
+  video: https://www.youtube.com/watch?v=YDpKOp-7x8s&feature=youtu.be
+  abstract: https://www.comsum.co.uk/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-10-08
+  conference: "Camunda User Group London 2019"
+  location: England
+  title: "The good and bad of service orchestration"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/London-Camunda-Meetup-Group/events/263965128/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-09-12
+  conference: "CamundaCon Berlin 2019"
+  location: Germany
+  title: "I want my process back! #microservices #serverless"
+  slides: https://www.slideshare.net/BerndRuecker/camunda-con-2019-keynote-i-want-my-process-back-microservices-serverless
+  video: https://www.youtube.com/watch?v=3rZipBO1XX8
+  abstract: https://www.camundacon.com/agenda?dates=1568332800000
+  code: 
+  language: de
+  description: 
+
+- date: 2019-09-11
+  conference: "JavaZone Oslo 2019"
+  location: Norway
+  title: "Opportunities and Pitfalls of Event-Driven Utopia"
+  slides: https://www.slideshare.net/BerndRuecker/qcon-2019-opportunities-and-pitfalls-of-eventdriven-utopia/
+  video: https://vimeo.com/362507687
+  abstract: https://2019.javazone.no/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-09-03
+  conference: "Camunda User Group Moscow 2019"
+  location: Russia
+  title: "Zeebe.io – cloud-scale workflow for microservices orchestration"
+  slides:
+  video: 
+  abstract: https://bpmteam.timepad.ru/event/1007349/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-08-22
+  conference: "GopherCon London 2019"
+  location: England
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: http://www.slideshare.net/BerndRuecker/2019-lost-in-transaction
+  video: https://www.youtube.com/watch?v=iQnbYMmDct4&list=PLDWZ5uzn69ezokLCB-nGgYInxL0uP1PeZ&index=13&t=0s
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2019-07-04
+  conference: "Java Forum Stuttgart 2019"
+  location: Germany
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: http://www.slideshare.net/BerndRuecker/2019-lost-in-transaction
+  video: https://vimeo.com/289508460 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2019-06-24
+  conference: "QCon New York City 2019"
+  location: USA
+  title: "Opportunities and Pitfalls of Event-Driven Utopia"
+  slides: https://www.slideshare.net/BerndRuecker/qcon-2019-opportunities-and-pitfalls-of-eventdriven-utopia/
+  video: https://vimeo.com/362507687
+  abstract: https://qconnewyork.com/ny2019/presentation/opportunities-and-pitfalls-event-driven-utopia
+  code: 
+  language: en
+  description: 
+
+- date: 2019-05-09
+  conference: "CraftConf Budapest  2019"
+  location: Hungary
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/slideshow/3-common-pitfalls-in-microservice-integration/
+  video: https://www.youtube.com/watch?v=O2-NHptllKQ&feature=youtu.be
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2019-05-07
+  conference: "JAX Mainz 2019"
+  location: Germany
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/slideshow/3-common-pitfalls-in-microservice-integration/
+  video: https://www.youtube.com/watch?v=O2-NHptllKQ&feature=youtu.be
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2019-04-29
+  conference: "Confluent Meetup Munic 2019"
+  location: Germany
+  title: "Monitoring and Orchestration of Your Microservices Landscape with Kafka and Zeebe"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2019-04-24
+  conference: "Confluent Meetup Amsterdam 2019"
+  location: Netherlands
+  title: "Monitoring and Orchestration of Your Microservices Landscape with Kafka and Zeebe"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/Amsterdam-Kafka-Meetup/events/260060255/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-04-09
+  conference: "Oracle Code Berlin 2019"
+  location: Germany
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: 
+  video: 
+  abstract: https://developer.oracle.com/code/berlin-april-2019
+  code: 
+  language: de
+  description: 
+
+- date: 2019-04-05
+  conference: "JPoint Moscow 2019"
+  location: Russia
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/2019-lost-in-transaction/
+  video: https://www.youtube.com/watch?v=SgqBNeBc48k&list=PLVe-2wcL84b94ehIDEskAMbQKDzt5JZNS&index=16
+  abstract: https://jpoint.ru/en/talks/3s5nqebrevpregacfijhra/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-04-02
+  conference: "Kafka Summit New York City 2019"
+  location: USA
+  title: "Complex event flows in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/2019-complex-event-flows-in-distributed-systems/
+  video: https://www.confluent.io/kafka-summit-ny19/complex-event-flows-in-distributed-systems
+  abstract: https://kafka-summit.org/sessions/complex-event-flows-distributed-systems/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-04-01
+  conference: "microXchg Berlin 2019"
+  location: Germany
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/ddd-europe-2019-lost-in-transaction/
+  video: https://www.youtube.com/watch?v=y1LIWMlqRKA&feature=youtu.be
+  abstract: http://microxchg.io/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-03-26
+  conference: "Camunda User Group Stuttgart 2019"
+  location: Germany
+  title: "Camunda Praxistipps"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/Camunda-User-Group-Stuttgart/events/258903383/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-03-20
+  conference: "Camunda User Group Frankfurt 2019"
+  location: Germany
+  title: "Camunda Praxistipps"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/Camunda-User-Group-Rhein-Main/events/258759584/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-03-19
+  conference: "JavaLand Brühl 2019"
+  location: Germany
+  title: "Lost in Transaction? Data Consistency in Distributed Systems"
+  slides: https://www.slideshare.net/BerndRuecker/ddd-europe-2019-lost-in-transaction/
+  video: 
+  abstract: https://programm.javaland.eu/2019/#/scheduledEvent/569570
+  code: 
+  language: de
+  description: 
+
+- date: 2019-03-04
+  conference: "QCon London 2019"
+  location: England
+  title: "Complex Event Flows in Distributed Systems"
+  slides: 
+  video: https://www.infoq.com/presentations/event-flow-systems
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2019-02-26
+  conference: "Basta Frankfurt 2019"
+  location: Germany
+  title: "Kommunikation zwischen Microservices"
+  slides: 
+  video: 
+  abstract: https://basta.net/microservices-apis/kommunikation-zwischen-microservices/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-02-21
+  conference: "Entwicklertag Frankfurt 2019"
+  location: Germany
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: 
+  video: 
+  abstract: https://entwicklertag.de/frankfurt/2019/lost-transaction-strategies-manage-consistency-distributed-systems
+  code: 
+  language: de
+  description: 
+
+- date: 2019-02-18
+  conference: "Java User Group Tampa 2019"
+  location: USA
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/Tampa-JUG/events/258583514/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-02-15
+  conference: "Serverless Days Hamburg 2019"
+  location: Germany
+  title: "Lost in transaction? Strategies to manage consistency in serverless architectures"
+  slides: 
+  video: 
+  abstract: https://hamburg.serverlessdays.io/speakers/bernd-r%C3%BCcker/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-01-31
+  conference: "DDD Europe Amsterdam 2019"
+  location: Netherlands
+  title: "Lost in transaction? Strategies to manage consistency across boundaries "
+  slides: https://www.slideshare.net/BerndRuecker/ddd-europe-2019-lost-in-transaction
+  video: 
+  abstract: https://dddeurope.com/2019/
+  code: 
+  language: en
+  description: 
+
+- date: 2019-01-30
+  conference: ".NET Usergroup Dusseldorf 2019"
+  location: Germany
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: 
+  video: 
+  abstract: http://dotnetug.de
+  code: 
+  language: de
+  description: 
+
+- date: 2019-01-22
+  conference: "Code Days Munic 2019"
+  location: Germany
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: 
+  video: 
+  abstract: https://www.code-days.de/programm/
+  code: 
+  language: de
+  description: 
+
+- date: 2019-01-08
+  conference: "JUG Bonn 2019"
+  location: Germany
+  title: "3 common pitfalls in microservice integration"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/JUG-Bonn/events/255097835/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-12-10
+  conference: "IT Tage Frankfurt 2018"
+  location: Germany
+  title: "3 typische Stolperfallen bei der Microservice-Integration"
+  slides: 
+  video: 
+  abstract: https://www.ittage.informatik-aktuell.de/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-12-06
+  conference: "DDD Meetup Essen 2018"
+  location: Germany
+  title: "Live Coding around Process Managers, Sagas and Orchestration – with Camunda and Zeebe.io"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/Domain-Driven-Design-Ruhrgebiet/events/253263745/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-12-05
+  conference: "JUG Muenster 2018"
+  location: Germany
+  title: "Event-driven Microservice Orchestration"
+  slides: 
+  video: 
+  abstract: http://www.jug-muenster.de/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-12-03
+  conference: "Microservices Summit Berlin 2018"
+  location: Germany
+  title: "Events, Flows und Long-Running Services"
+  slides: 
+  video: 
+  abstract: https://microservices-summit.de/microservices/events-flows-und-long-running-services/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-11-26
+  conference: ".NET Developer Conference (DDC) Cologne 2018"
+  location: Germany
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: https://www.dotnet-developer-conference.de/programm/#/tag-3
+  code: 
+  language: de
+  description: 
+
+- date: 2018-11-26
+  conference: "Messekongress IT fuer Versicherer Leipzig 2018"
+  location: Germany
+  title: "Ein Kessel Buntes - BPM(N) bei der Allianz"
+  slides: 
+  video: 
+  abstract: https://www.versicherungsforen.net/portal/de/messekongresse/it/index.xhtml
+  code: 
+  language: de
+  description: 
+
+- date: 2018-11-23
+  conference: "Devoxx Ukraine Kiev 2018"
+  location: Ukraine
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: https://www.youtube.com/watch?v=AXwdOqMxO0Q&list=PLlhpyJD4TzMbTD12Ul_vkp8yHxmH4GD3n&index=54
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-11-20
+  conference: "Codemotion  Berlin 2018"
+  location: Germany
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-11-20
+  conference: "DOAG Nuremberg 2018"
+  location: Germany
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-11-13
+  conference: "Devoxx Belgium Antwerp 2018"
+  location: Belgium
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: https://dvbe18.confinabox.com/talk/BIP-8983/3_common_pitfalls_in_microservice_integration_and_how_to_avoid_them
+  code: 
+  language: en
+  description: 
+
+- date: 2018-11-06
+  conference: "WJAX Munic 2018"
+  location: Germany
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-11-05
+  conference: "MuCon London 2018"
+  location: England
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: https://skillsmatter.com/skillscasts/12766-3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-11-01
+  conference: "MuCon"
+  location: London
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: https://skillsmatter.com/skillscasts/12766-3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  description: 
+
+- date: 2018-11-01
+  conference: "WJAX"
+  location: Munic
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  language: de
+  description: 
+
+- date: 2018-10-29
+  conference: "O'Reilly SA London 2018"
+  location: England
+  title: "3 common pitfalls of microservice integration"
+  slides: 
+  video: 
+  abstract: https://conferences.oreilly.com/software-architecture/sa-eu/public/schedule/detail/69841
+  code: 
+  language: en
+  description: 
+
+- date: 2018-10-22
+  conference: "GoLab Florence 2018"
+  location: Italy
+  title: "Orchestration of Microservices"
+  slides: https://www.slideshare.net/BerndRuecker/gophercon-uk-2018-orchestration-of-microservices
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-10-16
+  conference: "Kafka Summit San Francisco 2018"
+  location: USA
+  title: "The Big Picture: Monitoring and Orchestration of Your Microservices Landscape with Kafka and Zeebe "
+  slides: https://www.slideshare.net/BerndRuecker/kafka-summit-2018-monitoring-and-orchestration-of-your-microservices-landscape-with-zeebe
+  video: https://www.confluent.io/kafka-summit-sf18/the_big_picture
+  abstract: https://kafka-summit.org/sessions/monitoring-orchestration-microservices-landscape/
+  code: 
+  language: en
+  description: 
+
+- date: 2018-10-09
+  conference: "Jcon Düsseldorf 2018"
+  location: Germany
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in distributed systems."
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-10-08
+  conference: "JAX London 2018"
+  location: England
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: https://www.youtube.com/watch?v=seC_dRVQZRY&feature=youtu.be
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-10-04
+  conference: "Microservices Meetup Munic 2018"
+  location: Germany
+  title: "Events and long running services"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/Microservices-Meetup-Munich/events/253329558/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-10-01
+  conference: "O'Reilly Software Architecture"
+  location: London
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://conferences.oreilly.com/software-architecture/sa-eu/public/schedule/detail/69841
+  video: 
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  description: 
+
+- date: 2018-10-01
+  conference: "GoLab"
+  location: Florence
+  title: "Orchestration of Microservices"
+  slides: https://www.slideshare.net/BerndRuecker/gophercon-uk-2018-orchestration-of-microservices
+  video: 
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  description: 
+
+- date: 2018-10-01
+  conference: "Apache Kafka Meetup Berlin"
+  location: Berlin
+  title: "Monitoring and Orchestration of Your Microservices Landscape with Kafka and Zeebe"
+  slides: https://www.slideshare.net/BerndRuecker/kafka-summit-2018-monitoring-and-orchestration-of-your-microservices-landscape-with-zeebe
+  video: https://youtu.be/iXkM-X6Kihk
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  description: 
+
+- date: 2018-10-01
+  conference: "Kafka Summit"
+  location: San Francisco
+  title: "The Big Picture: Monitoring and Orchestration of Your Microservices Landscape with Kafka and Zeebe"
+  slides: https://www.slideshare.net/BerndRuecker/kafka-summit-2018-monitoring-and-orchestration-of-your-microservices-landscape-with-zeebe
+  video: https://www.confluent.io/kafka-summit-sf18/the_big_picture
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail/
+  description: 
+
+- date: 2018-10-01
+  conference: "JCon"
+  location: Dusseldorf
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-10-01
+  conference: "JCon"
+  location: Dusseldorf
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in distributed systems."
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-10-01
+  conference: "JAX"
+  location: London
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-10-01
+  conference: "Microservices Meetup"
+  location: Munic
+  title: "Double Feature: Events and long running services"
+  slides: https://www.meetup.com/Microservices-Meetup-Munich/events/253329558/
+  video: https://www.youtube.com/watch?v=7xC3dUIvF-0
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  description: 
+
+- date: 2018-09-26
+  conference: "DevConf Krakow 2018"
+  location: Poland
+  title: "Complex Event Flows in Distributed Systems"
+  slides: http://devconf.pl/#schedule2_day2_auditorium1_time3
+  video: https://www.youtube.com/watch?v=EegrVoPTRbQ
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-09-26
+  conference: "Cloud Native London 2018"
+  location: England
+  title: "Coordinate cloud-native components using distributed state machines"
+  slides: https://skillsmatter.com/conferences/10160-cloudnative-london-2018#program
+  video: https://skillsmatter.com/skillscasts/12110-coordinate-cloud-native-components-using-distributed-state-machines
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-09-24
+  conference: "Basta Mainz 2018"
+  location: Germany
+  title: "Kommunikation zwischen Microservices"
+  slides: 
+  video: 
+  abstract: https://basta.net/microservices-apis/kommunikation-zwischen-microservices/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-09-13
+  conference: "Java Forum Nord Hannover 2018"
+  location: Germany
+  title: "3 common pitfalls of microservice integration"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-09-12
+  conference: "JavaZone Oslo 2018"
+  location: Norway
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: https://2018.javazone.no/program/45df84d4-e819-4fc9-9e3b-931972891441
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-09-04
+  conference: "Herbstcampus Nuremberg 2018"
+  location: Germany
+  title: "Lost in transaction? Über (In-)Kosistenz in verteilten Systemen"
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-09-03
+  conference: "Full Stack Fest Barcelona 2018"
+  location: Spain
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: https://www.youtube.com/watch?v=JtaoNlL5mdI
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-09-01
+  conference: "Cloud Native"
+  location: London
+  title: "Coordinate cloud-native components using distributed state machines"
+  slides: https://skillsmatter.com/conferences/10160-cloudnative-london-2018#program
+  video: https://skillsmatter.com/skillscasts/12110-coordinate-cloud-native-components-using-distributed-state-machines
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  description: 
+
+- date: 2018-09-01
+  conference: "DevConf"
+  location: Krakow
+  title: "Complex Event Flows in Distributed Systems"
+  slides: http://devconf.pl/#schedule2_day2_auditorium1_time3
+  video: https://www.youtube.com/watch?v=EegrVoPTRbQ
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-09-01
+  conference: "JavaZone Noway"
+  location: Oslo
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: https://2018.javazone.no/program/45df84d4-e819-4fc9-9e3b-931972891441
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  description: 
+
+- date: 2018-09-01
+  conference: "Java Forum Nord"
+  location: Hannover
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  language: de
+  description: 
+
+- date: 2018-09-01
+  conference: "Full Stack Fest"
+  location: Barcelona
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: https://www.youtube.com/watch?v=JtaoNlL5mdI
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-09-01
+  conference: "Basta"
+  location: Mainz
+  title: "Kommunikation zwischen Microservices"
+  slides: https://basta.net/microservices-apis/kommunikation-zwischen-microservices/
+  video: 
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  language: de
+  description: 
+
+- date: 2018-09-01
+  conference: "Basta"
+  location: Mainz
+  title: "Workflows mit BPMN automatisieren. Lessons Learned."
+  slides: https://basta.net/web-development/workflows-mit-bpmn-automatisieren-lessons-learned/
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-09-01
+  conference: "JUG"
+  location: Mainz
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.meetup.com/JUG-Mainz/events/249130598/
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-09-01
+  conference: "Herbstcampus"
+  location: Nurremberg
+  title: "Lost in transaction? Über (In-)Kosistenz in verteilten Systemen"
+  slides: https://www.slideshare.net/BerndRuecker/2018-lost-in-transaction/
+  video: 
+  abstract: 
+  code: https://github.com/berndruecker/flowing-retail
+  language: de
+  description: 
+
+- date: 2018-08-01
+  conference: "GopherCon"
+  location: London
+  title: "Orchestration of Microservices"
+  slides: https://www.slideshare.net/BerndRuecker/gophercon-uk-2018-orchestration-of-microservices
+  video: https://www.youtube.com/watch?v=NBo7d5AG-3s
+  abstract: 
+  code: https://github.com/flowing/flowing-retail/tree/master/rest/go
+  description: 
+
+- date: 2018-08-01
+  conference: "GopherCon London 2018"
+  location: England
+  title: "Orchestration of Microservices"
+  slides: https://www.slideshare.net/BerndRuecker/gophercon-uk-2018-orchestration-of-microservices
+  video: https://www.youtube.com/watch?v=NBo7d5AG-3s
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-06-27
+  conference: "QCon New York City 2018"
+  location: USA
+  title: "Complex Event Flows in Distributed Systems"
+  slides: https://www.slideshare.net/BerndRuecker/complex-event-flows-in-distributed-systems
+  video: https://www.youtube.com/watch?v=de9qjAOS7Ak
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-06-25
+  conference: "Developer Week Nuremberg 2018"
+  location: Germany
+  title: "Workflows mit BPMN automatisieren. Lessons Learned."
+  slides: https://www.slideshare.net/BerndRuecker/workflow-automation-with-bpmn-lessons-learned
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-06-21
+  conference: "Devoxx Poland Krakow 2018"
+  location: Poland
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in modern architectures."
+  slides: 
+  video: https://www.youtube.com/watch?list=PLRsbF2sD7JVrSMm9aK4juBQz9AyU_rakc&v=8KgTB75VePo
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-06-11
+  conference: "JBCN Barcelona 2018"
+  location: Spain
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-06-01
+  conference: "The New York City Java Meetup Group"
+  location: New York
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-06-01
+  conference: "QCon"
+  location: New York
+  title: "Complex Event Flows in Distributed Systems"
+  slides: https://www.slideshare.net/BerndRuecker/complex-event-flows-in-distributed-systems
+  video: https://www.infoq.com/presentations/event-flow-distributed-systems
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-06-01
+  conference: "QCon"
+  location: New York
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-06-01
+  conference: "Entwicklertag"
+  location: Karlsruhe
+  title: "Lost in transaction? Über (In-)Kosistenz in verteilten Systemen"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-06-01
+  conference: "Developer Week"
+  location: Nuremberg
+  title: "Workflows mit BPMN automatisieren. Lessons Learned."
+  slides: https://www.slideshare.net/BerndRuecker/workflow-automation-with-bpmn-lessons-learned
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-06-01
+  conference: "Devoxx Poland"
+  location: Krakow
+  title: "Lost in transaction? Strategies to deal with (in-)consistency in modern architectures."
+  slides: 
+  video: https://www.youtube.com/watch?list=PLRsbF2sD7JVrSMm9aK4juBQz9AyU_rakc&v=8KgTB75VePo
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-06-01
+  conference: "JBCN Conf"
+  location: Barcelona
+  title: "3 common pitfalls in microservice integration and how to avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/3-common-pitfalls-in-microservice-integration
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-05-10
+  conference: "CraftConf Budapest 2018"
+  location: Hungary
+  title: "Break your event chains! Complex event flows in distributed systems."
+  slides: https://speakerdeck.com/martinschimak/craftconf-budapest-2018-break-your-event-chains-complex-event-flows-in-distributed-systems
+  video: https://www.ustream.tv/recorded/114862863
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-05-08
+  conference: "Codemotion Amsterdam 2018"
+  location: Netherlands
+  title: "Workflow automation in the serverless age "
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-05-01
+  conference: "Codemotion"
+  location: Amsterdam
+  title: "Workflow automation in the serverless age"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-05-01
+  conference: "Craft-Conf"
+  location: Budapest
+  title: "Break your event chains! Complex event flows in distributed systems."
+  slides: https://speakerdeck.com/martinschimak/craftconf-budapest-2018-break-your-event-chains-complex-event-flows-in-distributed-systems
+  video: https://www.ustream.tv/recorded/114862863
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-04-17
+  conference: "Java with the best Online 2018"
+  location: 
+  title: "3 Common Pitfalls in Microservice Integration and How to Avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/qcon-london-2018-3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them
+  video: 
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-04-01
+  conference: "Java With the Best"
+  location: Online
+  title: "3 Common Pitfalls in Microservice Integration and How to Avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/qcon-london-2018-3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-03-22
+  conference: "JUG Erfurt 2018"
+  location: Germany
+  title: "Zeebe.io - Event-driven Microservice Orchestration"
+  slides: https://de.slideshare.net/mobile/BerndRuecker/java-user-group-erfurt-2018-zeebeio-eventdriven-microservice-orchestration
+  video: https://youtu.be/lZIe02um5eI
+  abstract: https://www.meetup.com/de-DE/jugthde/events/245462401/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-03-19
+  conference: "DDD Meetup Cologne 2018"
+  location: Germany
+  title: "Long-running services und Camunda"
+  slides: 
+  video: 
+  abstract: https://www.meetup.com/Domain-Driven-Design-Koln-Bonn/events/247273344/
+  code: 
+  language: de
+  description: 
+
+- date: 2018-03-12
+  conference: "Voxxed Days Vienna 2018"
+  location: Austria
+  title: "Patience pays off. How long running services reduce complexity."
+  slides: 
+  video: https://youtu.be/LJq6xAT0uwI
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-03-01
+  conference: "Java User Group"
+  location: Erfurt
+  title: "Zeebe.io - Event-driven Microservice Orchestration"
+  slides: https://www.slideshare.net/BerndRuecker/java-user-group-erfurt-2018-zeebeio-eventdriven-microservice-orchestration
+  video: https://www.youtube.com/watch?v=lZIe02um5eI
+  abstract: 
+  code: https://github.com/flowing/flowing-retail/tree/master/zeebe
+  language: de
+  description: 
+
+- date: 2018-03-01
+  conference: "DDD Meetup"
+  location: Cologne
+  title: "Long-running services and Camunda"
+  slides: 
+  video: https://www.youtube.com/watch?v=AXgEowOgDSg
+  abstract: 
+  code: https://github.com/flowing/flowing-retail/
+  language: de
+  description: 
+
+- date: 2018-03-01
+  conference: "Voxxed"
+  location: Vienna
+  title: "Patience pays off. How long running services reduce complexity."
+  slides: 
+  video: https://youtu.be/LJq6xAT0uwI
+  abstract: 
+  code: 
+  description: 
+
+- date: 2018-03-01
+  conference: "Qcon"
+  location: London
+  title: "3 Common Pitfalls in Microservice Integration and How to Avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/qcon-london-2018-3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them
+  video: https://youtu.be/O2-NHptllKQ
+  abstract: 
+  code: https://github.com/flowing/flowing-retail/tree/master/rest/java/payment
+  description: 
+
+- date: 2018-02-26
+  conference: "O'Reilly SA New York City 2018"
+  location: USA
+  title: "Complex event flows in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/oreilly-sa-nyc-2018-complex-event-flows-in-distributed-systems/
+  video: https://www.safaribooksonline.com/library/view/oreilly-software-architecture/9781492028116/video318624.html
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-02-20
+  conference: "Entwicklertag Frankfurt 2018"
+  location: Germany
+  title: "Lost in transaction? Strategies to manage consistency in distributed systems"
+  slides: 
+  video: 
+  abstract: https://entwicklertag.de/frankfurt/2019/lost-transaction-strategies-manage-consistency-distributed-systems
+  code: 
+  language: de
+  description: 
+
+- date: 2018-02-05
+  conference: "QCon London 2018"
+  location: England
+  title: "3 Common Pitfalls in Microservice Integration and How to Avoid them"
+  slides: https://www.slideshare.net/BerndRuecker/qcon-london-2018-3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them
+  video: https://youtu.be/O2-NHptllKQ
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-02-05
+  conference: "JFokus Stockholm 2018"
+  location: Sweden
+  title: "Lost in transaction - Strategies to deal with (in-)consistency in modern architectures"
+  slides: https://www.slideshare.net/BerndRuecker/jfokus-2018-lost-in-transaction-strategies-to-deal-with-inconsistency-in-modern-architectures
+  video: https://www.youtube.com/watch?v=Ikj59uEKhjg
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2018-02-01
+  conference: "O'Reilly Software Architecture"
+  location: New York City
+  title: "Complex event flows in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/oreilly-sa-nyc-2018-complex-event-flows-in-distributed-systems/
+  video: https://www.safaribooksonline.com/library/view/oreilly-software-architecture/9781492028116/video318624.html
+  abstract: 
+  code: https://github.com/flowing/flowing-retail/
+  description: 
+
+- date: 2018-02-01
+  conference: "Jfokus"
+  location: Stockholm
+  title: "Lost in transaction - Strategies to deal with (in-)consistency in modern architectures"
+  slides: https://www.slideshare.net/BerndRuecker/jfokus-2018-lost-in-transaction-strategies-to-deal-with-inconsistency-in-modern-architectures
+  video: https://www.youtube.com/watch?v=Ikj59uEKhjg
+  abstract: 
+  code: https://github.com/flowing/flowing-retail/tree/master/rest/java/payment
+  description: 
+
+- date: 2018-02-01
+  conference: "JUG Aachen 2018"
+  location: Germany
+  title: "The 7 sins of workflow"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2018-01-30
+  conference: "Camunda User Group Amsterdam 2018"
+  location: Netherlands
+  title: "Live coding domain-driven microservices interactively"
+  slides: 
+  video: https://youtu.be/XLz_EC1wCYg
+  abstract: https://www.meetup.com/Netherlands-Camunda-User-Group/events/245891545/
+  code: 
+  language: en
+  description: 
+
+- date: 2018-01-01
+  conference: "Camunda Days"
+  location: Berlin, Hamburg, Düsseldorf, Frankfurt, Munic,  Zürich, Vienna
+  title: "Microservices with Camunda"
+  slides: https://www.slideshare.net/BerndRuecker/microservices-with-camunda-talk-from-camunda-days-012018
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-11-01
+  conference: "WJAX"
+  location: Munic
+  title: "Workflow Engines at scale"
+  slides: https://www.slideshare.net/BerndRuecker/wjax-2017-workflow-and-state-machines-at-scale
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-11-01
+  conference: "WJAX"
+  location: Munic
+  title: "(Micro-)service collaboration"
+  slides: https://www.slideshare.net/BerndRuecker/wjax-2017-microservice-collaboration
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-11-01
+  conference: "MuCon"
+  location: London
+  title: "Break your event chains"
+  slides: https://www.slideshare.net/BerndRuecker/mucon-london-2017-break-your-event-chains
+  video: https://skillsmatter.com/skillscasts/10718-break-your-event-chains
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-10-01
+  conference: "KanDDDinsky (Berlin), DDD Belgium (Gent), JCon"
+  location: Düsseldorf
+  title: "Let your domain events flow"
+  slides: https://www.slideshare.net/BerndRuecker/kandddinsky-let-your-domain-events-flow
+  video: https://www.youtube.com/watch?v=LKoaMbqZp9Y
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-10-01
+  conference: "O'Reilly Software Architecture"
+  location: London
+  title: "Complex event flows in distributed systems"
+  slides: https://www.slideshare.net/BerndRuecker/oreilly-sa-complex-event-flows-in-distributed-systems
+  video: https://www.safaribooksonline.com/library/view/oreilly-software-architecture/9781491985274/video315427.html
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-10-01
+  conference: "KanDDDInsky Berlin 2017"
+  location: Germany
+  title: "Let your domain events flow"
+  slides: https://www.slideshare.net/BerndRuecker/kandddinsky-let-your-domain-events-flow
+  video: https://www.youtube.com/watch?v=LKoaMbqZp9Y
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-09-01
+  conference: "JUG (Amsterdam), JUG"
+  location: Frankfurt
+  title: "Orchestration of Microservices (Java edition)"
+  slides: https://www.slideshare.net/BerndRuecker/jug-frankfurt-orchestration-of-microservices
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-09-01
+  conference: "Basta"
+  location: Mainz
+  title: "Orchestration of Microservices (.NET edition)"
+  slides: https://www.slideshare.net/BerndRuecker/basta-orchestration-of-microservices
+  video: https://www.youtube.com/watch?v=4g2drf_EjWk
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-09-01
+  conference: "BedCon (Berlin), Java Forum Nord"
+  location: Hannover
+  title: "7 sins of workflow"
+  slides: https://www.slideshare.net/BerndRuecker/7-sins-of-workflow-80009511
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-09-01
+  conference: "DDD Meetup"
+  location: Berlin
+  title: "Tackling complex event flows"
+  slides: https://www.slideshare.net/BerndRuecker/2017-0905-ddd-ber-tackling-complex-event-flows
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-09-01
+  conference: "JavaBin"
+  location: Trondheim, Bergen
+  title: "Let your microservices flow"
+  slides: https://www.slideshare.net/BerndRuecker/javabin-trondheim-and-bergen-let-your-microservices-flow
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-07-01
+  conference: "JFS"
+  location: Stuttgart
+  title: "Orchestration of Microservices"
+  slides: https://www.slideshare.net/BerndRuecker/jfs-2017-orchestration-of-microservices
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-05-01
+  conference: "JAX"
+  location: Mainz
+  title: "Orchestration of Microservices"
+  slides: https://www.slideshare.net/BerndRuecker/jax-2017-talk-orchestration-of-microservices
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-05-01
+  conference: "JAX"
+  location: Mainz
+  title: "Business Rules with DMN"
+  slides: https://www.slideshare.net/BerndRuecker/jax-2017-talk-business-rules-with-dmn-and-camunda
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-04-27
+  conference: "DDD eXchange London 2017"
+  location: England
+  title: "Long running processes in DDD"
+  slides: https://www.slideshare.net/BerndRuecker/long-running-processes-in-ddd
+  video: https://skillsmatter.com/skillscasts/9853-long-running-processes-in-ddd
+  abstract: 
+  code: 
+  language: en
+  description: 
+
+- date: 2017-04-01
+  conference: "DDD eXchange"
+  location: London
+  title: "Long running processes in DDD"
+  slides: https://www.slideshare.net/BerndRuecker/long-running-processes-in-ddd
+  video: https://skillsmatter.com/skillscasts/9853-long-running-processes-in-ddd
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-04-01
+  conference: "Goto Meetup"
+  location: Oslo
+  title: "Let your microservices flow"
+  slides: https://www.slideshare.net/BerndRuecker/goto-meetup-stockholm-let-your-microservices-flow
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-04-01
+  conference: "JavaBIn"
+  location: Oslo
+  title: "Open source workflow and rule management with Camunda"
+  slides: https://www.slideshare.net/BerndRuecker/javabin-oslo-open-source-workflow-and-rule-management-with-camunda
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-03-01
+  conference: "Voxxed"
+  location: Vienna
+  title: "Because your business is more complex than Netflix"
+  slides: https://de.slideshare.net/BerndRuecker/master-the-flow-of-microservices-because-your-business-is-more-complex-than
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2017-02-01
+  conference: "Basta"
+  location: Frankfurt
+  title: "BPMN und Workflows in .NET - das geht!"
+  slides: https://de.slideshare.net/BerndRuecker/bpmn-und-workflows-in-net
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2017-01-01
+  conference: "JFokus"
+  location: Stockholm
+  title: "The 7 sins of workflow"
+  slides: https://de.slideshare.net/BerndRuecker/the-7-sins-of-workflow
+  video: 
+  abstract: 
+  code: 
+  description: 
+
+- date: 2016-11-01
+  conference: "Digitalisierung und IT in Versicherungen"
+  location: Vienna
+  title: "Prozesse digitalisieren - heute und morgen"
+  slides: https://de.slideshare.net/BerndRuecker/prozesse-digitalisieren-heute-und-morgen
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2016-11-01
+  conference: "Jfall"
+  location: Ede
+  title: "Camunda BPM"
+  slides: https://de.slideshare.net/BerndRuecker/2016-jfall-camunda-bpm
+  video: https://www.youtube.com/watch?v=_WKlc_X6zNE
+  abstract: 
+  code: 
+  description: 
+
+- date: 2016-11-01
+  conference: "WJAX"
+  location: Munic
+  title: "BPMN & CMMN. Wann nehme ich welchen Standard?"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2016-11-01
+  conference: "WJAX"
+  location: Munic
+  title: "Geschäftsregeln mit DMN"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2016-09-01
+  conference: "Basta"
+  location: Mainz
+  title: "Workflows mit BPMN 2.0 automatisieren"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2016-09-01
+  conference: "BedCon"
+  location: Berlin
+  title: "Workflows (BPMN), Business Rules (DMN), Case Management (CMMN) – live & in Action"
+  slides: https://de.slideshare.net/BerndRuecker/2016-bedcon-talk-workflows-bpmn-business-rules-dmn-case-management-cmmn-live-in-action
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2016-07-01
+  conference: "Java EE Summit"
+  location: Berlin
+  title: "BPM und Microservices"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2016-07-01
+  conference: "JFS"
+  location: Stuttgart
+  title: "Workflows mit BPMN & Business Rules mit DMN - Open Source und in Action mit Camunda BPM (won best presentation award)"
+  slides: http://www.java-forum-stuttgart.de/de/BestPresentations+2016.html
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2016-05-01
+  conference: "SEACON"
+  location: Hamburg
+  title: "BPM War Stories. Oder: Wie baue ich eine BPM-Architektur auf?"
+  slides: 
+  video: 
+  abstract: 
+  code: 
+  language: de
+  description: 
+
+- date: 2015-11-01
+  conference: "Devoxx"
+  location: Antwerp
+  title: "Open Source Workflows, Business Rules and Case Management live and in action"
+  slides: 
+  video: https://www.youtube.com/watch?v=x9ceAoZt8xw
+  abstract: 
+  code: 
+  description: 

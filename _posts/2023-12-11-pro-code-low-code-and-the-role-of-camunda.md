@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "orchestration", "spring", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "Here is the TL/DR: We will stay 100% developer-friendly and pro-code is our heart and soul or bread and butter if you prefer. But people that create process ..."
+canonical: https://camunda.com/blog/2023/12/pro-code-low-code-role-of-camunda/
 ---
 ### Pro-code, Low-code, and the Role of Camunda
 

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1d-haRzQvmVaFfcpASdnqcg.png"
+canonical: https://blog.bernd-ruecker.com/3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them-3f27a442cd07
 ---
 ### 3 common pitfalls in microservice integration — and how to avoid them
 *This blog post was *[*originally published at InfoWorld*](https://www.infoworld.com/article/3254777/application-development/3-common-pitfalls-of-microservices-integrationand-how-to-avoid-them.html)* two weeks ago. I also gave a couple of talks on this topic, e.g. at *[*QCon London*](https://qconlondon.com/london2018/presentation/3-common-pitfalls-microservice-integration)* (*[*Slides,*](https://www.slideshare.net/BerndRuecker/qcon-london-2018-3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them)* *[*Recording*](https://youtu.be/O2-NHptllKQ)*).*

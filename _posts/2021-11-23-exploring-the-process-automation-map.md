@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "process-automation"]
 author: Bernd Ruecker
 excerpt: "I recommend reviewing the introduction to the process automation maphttps://techspective.net/2021/11/22/the-process-automation-map/ first. As a quick recap, ..."
+canonical: https://blog.bernd-ruecker.com/exploring-the-process-automation-map-7d9aa181a747
 ---
 ### Exploring the Process Automation Map
 Earlier this year, I introduced the idea of the [process automation map](https://techspective.net/2021/11/22/the-process-automation-map/). Over time, it has proven useful in several customer scenarios. In today’s post, I’ll dive deeper into the dimensions of the map to help you rate your processes.

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring"]
 author: Bernd Ruecker
 excerpt: "I quickly scanned through the linked blog posthttp://redmonk.com/sogrady/2017/07/20/soa-microservices/ and couldn’t agree more even if I think there are more..."
+canonical: https://blog.bernd-ruecker.com/the-flow-is-for-bpm-what-microservices-are-for-soa-5225c7908bae
 ---
 ### “The flow” is for BPM what microservices are for SOA
 This tweet from Martin Fowler got my attention today:

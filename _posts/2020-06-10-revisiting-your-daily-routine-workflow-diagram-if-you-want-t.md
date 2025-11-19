@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "process-automation"]
 author: Bernd Ruecker
 excerpt: "> The real thinking behind was that I really want to show you that creating workflow diagrams is a very useful thing and can help you oversee everything basi..."
+canonical: https://blog.bernd-ruecker.com/revisiting-your-daily-routine-workflow-diagram-if-you-want-to-automate-processes-e95770b6b012
 ---
 ### Revisiting your daily routine workflow diagram if you want to automate processes
 

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "- Scope and boundaries “what workflow do you want to automate and how is this mapped to multiple microservices or bounded contextshttps://martinfowler.com/bl..."
+canonical: https://blog.bernd-ruecker.com/the-microservice-workflow-automation-cheat-sheet-fc0a80dc25aa
 ---
 ### The Microservices Workflow Automation Cheat Sheet
 Your company might want to go for a microservice architecture **and **apply workflow automation (I do not go into the motivation why in this blog post, but you might want to read about [*5 Workflow Automation Use Cases You Might Not Have Considered*](https://thenewstack.io/5-workflow-automation-use-cases-you-might-not-have-considered/) or [*BizDevOps — the true value proposition of workflow engines*](https://blog.bernd-ruecker.com/bizdevops-the-true-value-proposition-of-workflow-engines-f342509ba8bb).) This sets you in company with a lot of [our customers](https://camunda.com/case-studies/). Typically, you will have questions around:

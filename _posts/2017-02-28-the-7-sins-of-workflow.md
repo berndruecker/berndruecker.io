@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!/assets/images/the-7-sins-of-workflow-1.png"
+canonical: https://blog.bernd-ruecker.com/the-7-sins-of-workflow-b3641736bf5c
 ---
 ### The 7 sins of workflow
 

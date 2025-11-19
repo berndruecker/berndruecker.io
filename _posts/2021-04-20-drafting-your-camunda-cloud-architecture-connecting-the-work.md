@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/0IsZKELwI5dqu1CfW.png"
+canonical: https://blog.bernd-ruecker.com/drafting-your-camunda-cloud-architecture-connecting-the-workflow-engine-with-your-world-3d94e8d404d6
 ---
 ### Drafting Your Camunda Cloud Architecture: Connecting The Workflow Engine With Your World
 

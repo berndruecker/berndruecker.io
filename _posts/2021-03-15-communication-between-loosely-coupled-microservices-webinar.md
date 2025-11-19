@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1GLFVaK-ZYnXuTV5b1biJPA.png"
+canonical: https://blog.bernd-ruecker.com/communication-between-loosely-coupled-microservices-webinar-faq-a02708b3c8b5
 ---
 ### Communication Between Loosely Coupled Microservices — Webinar FAQ
 

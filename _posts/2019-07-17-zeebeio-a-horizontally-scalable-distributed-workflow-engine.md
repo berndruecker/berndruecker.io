@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1ZDy0wSgUZL3rIsAK_j-ZGQ.png"
+canonical: https://blog.bernd-ruecker.com/zeebe-io-a-horizontally-scalable-distributed-workflow-engine-45788a90d549
 ---
 ### Zeebe.io — a horizontally scalable distributed workflow engine
 

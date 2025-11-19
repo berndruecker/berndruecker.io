@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "Modern microservices architectures are event-driven, reactive, and choreographed as opposed to being centrally controlled via an orchestrator. That makes the..."
+canonical: https://blog.bernd-ruecker.com/how-to-tame-event-driven-microservices-5b30a6b98f86
 ---
 ### How to tame event-driven microservices
 *This blog post was *[*originally published at InfoWorld*](https://www.infoworld.com/article/3391592/how-to-tame-event-driven-microservices.html)*. I also gave a talk on this topic at *[*QCon NYC recenctly*](https://qconnewyork.com/ny2019/presentation/opportunities-and-pitfalls-event-driven-utopia)* (*[*Slides*](https://berndruecker.io/opportunities-and-pitfalls-of-event-driven-utopia/)*).*

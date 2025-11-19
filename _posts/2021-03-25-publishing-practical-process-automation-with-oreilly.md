@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "In this book, I distilled my practical experience implementing process automation solutions from the last two decadeshttps://berndruecker.io/bio.php."
+canonical: https://blog.bernd-ruecker.com/publishing-practical-process-automation-with-oreilly-db993db68411
 ---
 ### Publishing “Practical Process Automation” With O’Reilly
 

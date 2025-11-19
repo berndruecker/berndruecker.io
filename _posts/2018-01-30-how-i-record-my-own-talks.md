@@ -6,6 +6,7 @@ categories: [blog]
 tags: []
 author: Bernd Ruecker
 excerpt: "and allow easy post processing. Afterwards you can simply create a mp4 file."
+canonical: https://blog.bernd-ruecker.com/how-i-record-my-own-talks-dee7903c2d53
 ---
 ### How I record my own talks
 I started to record my own talks for publishing a year ago. But obviously I do not want to carry around a huge case of expensive equipment to make this happening. So I experimented a while to figure out a setup that works for me. I wrote this post for anybody interested.

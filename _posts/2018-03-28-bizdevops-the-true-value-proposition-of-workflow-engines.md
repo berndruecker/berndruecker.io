@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "process-automation"]
 author: Bernd Ruecker
 excerpt: "BPMN is an ISO standardhttp://www.bpmn.org/ and its beauty is that it defines a business readable graphical visualization that is also directly executable on..."
+canonical: https://blog.bernd-ruecker.com/bizdevops-the-true-value-proposition-of-workflow-engines-f342509ba8bb
 ---
 ### BizDevOps — the true value proposition of workflow engines
 

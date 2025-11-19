@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture"]
 author: Bernd Ruecker
 excerpt: "Remote communication inevitably must respect the 8 fallacies of distributed programminghttps://en.wikipedia.org/wiki/Fallacies_of_distributed_computing. So y..."
+canonical: https://blog.bernd-ruecker.com/fail-fast-is-not-enough-84645d6864d3
 ---
 ### Fail fast is not enough!
 

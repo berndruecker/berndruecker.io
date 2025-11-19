@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "In this blog post I will introduce process events monitoring as possible remedy. Before I can do that, I will briefly explain a typical event-driven architec..."
+canonical: https://blog.bernd-ruecker.com/gaining-visibility-into-processes-spanning-multiple-microservices-a1fc751c4c13
 ---
 ### Gaining visibility into processes spanning multiple microservices
 

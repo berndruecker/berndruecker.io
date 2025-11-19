@@ -7,6 +7,7 @@ tags: ["camunda", "microservices", "orchestration", "spring", "architecture"]
 author: Bernd Ruecker
 excerpt: "- The domain
 - The organizational structure, including the development teams."
+canonical: https://blog.bernd-ruecker.com/avoiding-the-bpm-monolith-when-using-bounded-contexts-d86be6308d8
 ---
 ### Avoiding the “BPM monolith” when using bounded contexts
 

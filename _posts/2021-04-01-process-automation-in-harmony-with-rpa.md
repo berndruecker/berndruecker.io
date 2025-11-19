@@ -7,6 +7,7 @@ tags: ["camunda", "orchestration", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "- Share Deutsche Telekom’s story about their initial success with RPA and the challenges emerging from that success
 - Describe their key solution strategies,..."
+canonical: https://blog.bernd-ruecker.com/process-automation-in-harmony-with-rpa-720effdb0513
 ---
 ### Process Automation In Harmony With RPA
 

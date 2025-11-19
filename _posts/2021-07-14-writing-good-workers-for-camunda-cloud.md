@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "spring", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "Therefore, this post will look into these topics:"
+canonical: https://blog.bernd-ruecker.com/writing-good-workers-for-camunda-cloud-61d322cad862
 ---
 ### Writing Good Workers For Camunda Cloud
 

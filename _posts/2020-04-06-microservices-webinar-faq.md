@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1VQ6BuXoKHqsv-RpWQHtsGA.jpeg"
+canonical: https://blog.bernd-ruecker.com/communication-between-loosely-coupled-microservices-webinar-faq-a02708b3c8b5
 ---
 ### Webinar FAQ for Monitoring & Orchestrating Your Microservices Landscape using Workflow Automation
 

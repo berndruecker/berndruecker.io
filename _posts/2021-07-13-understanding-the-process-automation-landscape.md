@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "spring", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "In 2015, Deutsche Telekom started to apply robotic process automation RPA, one of many tools in the whole process automation space. Over time the company dev..."
+canonical: https://blog.bernd-ruecker.com/understanding-the-process-automation-landscape-9406fe019d93
 ---
 ### Understanding the process automation landscape
 

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture"]
 author: Bernd Ruecker
 excerpt: "> “We do composite services, orchestrating two or three CRUD-Services to do something more useful. Our architects want to use your workflow engine for this b..."
+canonical: https://blog.bernd-ruecker.com/architecture-options-to-run-a-workflow-engine-6c2419902d91
 ---
 ### Architecture options to run a workflow engine
 This week a customer called and asked (translated into my own words and shortened):

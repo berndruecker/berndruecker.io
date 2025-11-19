@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture"]
 author: Bernd Ruecker
 excerpt: "!/assets/images/flowing-retail-demonstrating-aspects-of-microservices-events-1.png"
+canonical: https://blog.bernd-ruecker.com/flowing-retail-demonstrating-aspects-of-microservices-events-and-their-flow-with-concrete-source-7f3abdd40e53
 ---
 ### Flowing-retail: Demonstrating aspects of microservices, events and their flow with concrete source code examples
 

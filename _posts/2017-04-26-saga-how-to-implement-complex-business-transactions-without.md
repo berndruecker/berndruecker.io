@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture"]
 author: Bernd Ruecker
 excerpt: "A good overview on Sagas can be found by watching the talk by Caitie McCaffrey:"
+canonical: https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b
 ---
 ### Saga: How to implement complex business transactions without two phase commit.
 I talked about Sagas more than 3 times this week so it is time to write a blog post about it.

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "spring", "event-driven", "process-automation"]
 author: Bernd Ruecker
 excerpt: "The transition from a passive event stream to an active component like a workflow engine is very interesting. It raises a lot of questions about idempotency,..."
+canonical: https://blog.bernd-ruecker.com/event-streams-are-nothing-without-action-ac47e62e9083
 ---
 ### Event Streams Are Nothing Without Action
 *This article was first published in the Confluent blog at *[*https://www.confluent.io/blog/data-streams-are-nothing-without-actionable-insights-leading-to-actions/*](https://www.confluent.io/blog/data-streams-are-nothing-without-actionable-insights-leading-to-actions/)

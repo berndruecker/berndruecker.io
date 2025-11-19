@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/0zR6hZDkvD7n7IDQH.png"
+canonical: https://blog.bernd-ruecker.com/how-we-ran-a-successful-virtual-conference-with-6500-attendees-8f2e7af5489c
 ---
 ### How we ran a successful virtual conference with > 6500 attendees
 

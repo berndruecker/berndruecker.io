@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "event-driven", "architecture"]
 author: Bernd Ruecker
 excerpt: "Unfortunately I see many companies that don’t adjust their business processes to this new world. In this post I want to give one example and discuss the cons..."
+canonical: https://blog.bernd-ruecker.com/leverage-the-full-potential-of-reactive-architectures-and-design-reactive-business-processes-3bf5cca35f65
 ---
 ### Leverage the full potential of reactive architectures and design reactive business processes
 

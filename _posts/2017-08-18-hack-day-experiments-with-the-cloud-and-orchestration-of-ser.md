@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture"]
 author: Bernd Ruecker
 excerpt: "The idea was easy: Let’s do a simple ticket booking example, where we have to do reservation and a ticket creation. The latter might need computing power for..."
+canonical: https://blog.bernd-ruecker.com/hack-day-experiments-with-the-cloud-and-orchestration-of-serverless-functions-2f8aeb51e343
 ---
 ### Hack day experiments with the cloud and orchestration of serverless functions
 During our yearly hack days some colleagues and me decided to get our hands dirty with latest technology trends. We wanted to translate what is easily drawn on a white board into working software in the cloud. We learned a lot —but step by step.

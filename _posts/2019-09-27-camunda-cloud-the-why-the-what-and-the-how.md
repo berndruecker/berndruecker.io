@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "process-automation"]
 author: Bernd Ruecker
 excerpt: "I personally liked Forget monoliths vs. microservices. Cognitive load is what mattershttps://techbeacon.com/app-dev-testing/forget-monoliths-vs-microservices..."
+canonical: https://blog.bernd-ruecker.com/camunda-cloud-the-why-the-what-and-the-how-8198f0a8c33b
 ---
 ### Camunda Cloud: The why, the what and the how
 

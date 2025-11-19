@@ -8,6 +8,7 @@ author: Bernd Ruecker
 excerpt: "- Payment
 - Inventory
 - Shipping"
+canonical: https://blog.bernd-ruecker.com/why-service-collaboration-needs-choreography-and-orchestration-239c4f9700fa
 ---
 ### Why service collaboration needs choreography AND orchestration
 Let’s assume you want to build a simple order system covering the whole order fulfillment process with the following three microservices involved (you might name it services, components or aggregates if you prefer):

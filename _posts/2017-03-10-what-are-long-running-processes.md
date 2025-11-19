@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "orchestration", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "Hint: My goal is not to give a scientific definition. I just want to write down my current thoughts as an anchor for potential discussions, so I’m looking fo..."
+canonical: https://blog.bernd-ruecker.com/what-are-long-running-processes-b3ee769f0a27
 ---
 ### What are long running processes?
 Some communities have big reservations when using terms like **workflow **(overloaded), **Business Process Management** or BPM (automatically considered to be a BPM monolith, see [The 7 sins of workflow](https://blog.bernd-ruecker.com/the-7-sins-of-workflow-b3641736bf5c)) or **orchestration** (reminds people of old SOA days, smart pipes or central engines). So I started using the term **long running process**, but now people are asking me: “Is this a long running process?” In this article I list typical use cases and clarify terminology.

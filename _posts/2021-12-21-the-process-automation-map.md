@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "spring", "process-automation"]
 author: Bernd Ruecker
 excerpt: "Imagine your CEO wants you to increase process automation as part of the organization’s push towards becoming a digital enterprise. As a first project, you n..."
+canonical: https://blog.bernd-ruecker.com/the-process-automation-map-1abe2d79192b
 ---
 ### The Process Automation Map
 [*This article was originally posted on techspective*](https://techspective.net/2021/11/22/the-process-automation-map/).

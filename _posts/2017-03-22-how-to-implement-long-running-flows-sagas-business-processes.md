@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture"]
 author: Bernd Ruecker
 excerpt: "!/assets/images/how-to-implement-long-running-flows-sagas-business-processes-1.jpeg"
+canonical: https://blog.bernd-ruecker.com/how-to-implement-long-running-flows-sagas-business-processes-or-similar-3c870a1b95a8
 ---
 ### How to implement long running flows, sagas, business processes or similar
 

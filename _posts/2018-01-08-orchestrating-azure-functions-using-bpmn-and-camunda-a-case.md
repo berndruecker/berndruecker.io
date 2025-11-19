@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "For most use cases just calling one simple function is not enough, you have to call multiple functions in the right order to implement a proper end-to-end us..."
+canonical: https://blog.bernd-ruecker.com/orchestrating-azure-functions-using-bpmn-and-camunda-a-case-study-ff71264cfad6
 ---
 ### Orchestrating Azure Functions using BPMN and Camunda — a case study
 Serverless functions are all the hype at the moment whether it be AWS Lambda or Azure Functions. I am happy that I am allowed to share a case study from [NexxBiz](https://www.nexxbiz.io/) to show you how Azure functions and BPMN work together. For a customer in the insurance field they set up an architecture around the Microsoft Cloud (Azure). They have build a very interesting tool-chain to master this environment.

@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1RI_x_gi-DygufUkVXwl65w.jpeg"
+canonical: https://blog.bernd-ruecker.com/camunda-raised-25m-series-a-funding-fcf438b66c7a
 ---
 ### Camunda raised € 25M Series A funding
 

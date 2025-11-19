@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1pI4WEXvI_dYqyqw3K2_5pA.jpeg"
+canonical: https://blog.bernd-ruecker.com/developer-relations-at-camunda-2018-recap-cbf85f5abd19
 ---
 ### Developer Relations at Camunda - 2018 Recap
 

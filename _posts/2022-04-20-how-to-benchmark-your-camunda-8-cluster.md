@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "spring", "architecture"]
 author: Bernd Ruecker
 excerpt: "Feel free to skip this section if you are just interested in how to run your own benchmark in the latest and greatest way."
+canonical: https://blog.bernd-ruecker.com/how-to-benchmark-your-camunda-8-cluster-48ada4b047b6
 ---
 ### How to Benchmark Your Camunda 8 Cluster
 

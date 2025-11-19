@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/0vP-4O8o9xKsqeB1_."
+canonical: https://blog.bernd-ruecker.com/how-to-benefit-from-robotic-process-automation-rpa-9edc04430afa
 ---
 ### How to benefit from robotic process automation (RPA)
 

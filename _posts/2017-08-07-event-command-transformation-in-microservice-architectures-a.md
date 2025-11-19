@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "microservices", "orchestration", "spring", "event-driven", "architecture"]
 author: Bernd Ruecker
 excerpt: "!/assets/images/event-command-transformation-in-microservice-architectures-a-1.png"
+canonical: https://blog.bernd-ruecker.com/event-command-transformation-in-microservice-architectures-and-ddd-dd07d5eb9656
 ---
 ### Event command transformation in microservice architectures and DDD
 In the articles [*Why service collaboration needs choreography AND orchestration*](https://blog.bernd-ruecker.com/why-service-collaboration-needs-choreography-and-orchestration-239c4f9700fa)* *and [Know the Flow! Microservices and Event Choreographies (InfoQ)](https://www.infoq.com/articles/microservice-event-choreographies) there was already a lot of information on event command transformation. Today I want to reiterate the problems it solves to make it crystal clear. This time I use concrete Java source code (simplified and reduced to the minimum) and again an order fulfillment business example (copied from [the flowing retail example](https://blog.bernd-ruecker.com/flowing-retail-demonstrating-aspects-of-microservices-events-and-their-flow-with-concrete-source-7f3abdd40e53)). The pure event flow looks like this:

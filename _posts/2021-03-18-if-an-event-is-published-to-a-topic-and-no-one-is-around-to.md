@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "orchestration", "event-driven", "architecture", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/0TkucOxNYRndoWMmp"
+canonical: https://blog.bernd-ruecker.com/if-an-event-is-published-to-a-topic-and-no-one-is-around-to-consume-it-does-it-make-a-sound-86bffd339325
 ---
 ### If an Event is Published to a Topic and No One is Around to Consume it, Does it Make a Sound?
 

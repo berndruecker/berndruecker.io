@@ -6,6 +6,7 @@ categories: [blog]
 tags: ["camunda", "spring", "process-automation"]
 author: Bernd Ruecker
 excerpt: "!https://cdn-images-1.medium.com/max/800/1gfgR0d_AQX_qvold3T2xYg.jpeg"
+canonical: https://blog.bernd-ruecker.com/how-blockchain-can-drastically-simplify-business-processes-cc0828918b85
 ---
 ### How blockchain can drastically simplify business processes.
 

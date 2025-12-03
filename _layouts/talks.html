@@ -82,6 +82,20 @@ layout: default
     color: white;
 }
 
+.copy-pdf-btn {
+    background: #28a745 !important;
+    font-size: 0.85em !important;
+    padding: 6px 12px !important;
+}
+
+.copy-pdf-btn:hover {
+    background: #218838 !important;
+}
+
+.copy-pdf-btn.copied {
+    background: #20c997 !important;
+}
+
 /* PDF Viewer Modal */
 .pdf-modal {
     display: none;
@@ -169,6 +183,7 @@ layout: default
                     <a href="{{ talk.slides }}" target="_blank">📄 Slides</a>
                     {% else %}
                     <a href="#" onclick="openPDFViewer('{{ talk.slides }}'); return false;">📄 Slides</a>
+                    <a href="#" class="copy-pdf-btn" onclick="copyPDFUrl('{{ talk.slides }}', this); return false;" title="Copy PDF URL">📋 Copy URL</a>
                     {% endif %}
                 {% endif %}
                 {% if talk.video and talk.video != "" %}
@@ -196,7 +211,37 @@ layout: default
 </div>
 
 <script>
-    // (no list-level JS needed)
+    // Copy PDF URL to clipboard
+    function copyPDFUrl(pdfPath, btn) {
+        const fullUrl = window.location.origin + '{{ site.baseurl }}' + pdfPath;
+        
+        navigator.clipboard.writeText(fullUrl).then(function() {
+            // Visual feedback
+            const originalText = btn.textContent;
+            btn.textContent = '✓ Copied!';
+            btn.classList.add('copied');
+            
+            setTimeout(function() {
+                btn.textContent = originalText;
+                btn.classList.remove('copied');
+            }, 2000);
+        }).catch(function(err) {
+            // Fallback for older browsers
+            const tempInput = document.createElement('input');
+            tempInput.value = fullUrl;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            
+            btn.textContent = '✓ Copied!';
+            btn.classList.add('copied');
+            setTimeout(function() {
+                btn.textContent = '📋 Copy URL';
+                btn.classList.remove('copied');
+            }, 2000);
+        });
+    }
 
     function openPDFViewer(pdfUrl) {
         const modal = document.getElementById('pdfModal');

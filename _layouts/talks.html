@@ -83,13 +83,8 @@ layout: default
 }
 
 .copy-pdf-btn {
-    background: #28a745 !important;
     font-size: 0.85em !important;
     padding: 6px 12px !important;
-}
-
-.copy-pdf-btn:hover {
-    background: #218838 !important;
 }
 
 .copy-pdf-btn.copied {
@@ -183,7 +178,7 @@ layout: default
                     <a href="{{ talk.slides }}" target="_blank">📄 Slides</a>
                     {% else %}
                     <a href="#" onclick="openPDFViewer('{{ talk.slides }}'); return false;">📄 Slides</a>
-                    <a href="#" class="copy-pdf-btn" onclick="copyPDFUrl('{{ talk.slides }}', this); return false;" title="Copy PDF URL">📋 Copy URL</a>
+                    <a href="#" class="copy-pdf-btn" onclick="copyPDFUrl('{{ talk.slides }}', this); return false;" title="Copy PDF URL">📋 Copy slides URL</a>
                     {% endif %}
                 {% endif %}
                 {% if talk.video and talk.video != "" %}
@@ -237,7 +232,7 @@ layout: default
             btn.textContent = '✓ Copied!';
             btn.classList.add('copied');
             setTimeout(function() {
-                btn.textContent = '📋 Copy URL';
+                btn.textContent = '📋 Copy slides URL';
                 btn.classList.remove('copied');
             }, 2000);
         });

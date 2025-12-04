@@ -315,6 +315,11 @@ I co-founded Camunda in 2008 as a consulting company focused on business process
         <i class="fab fa-linkedin"></i> Connect with Bernd on LinkedIn
       </a>
     </p>
+    <p class="mt-2">
+      <a href="https://github.com/berndruecker" target="_blank" class="btn btn-primary">
+        <i class="fab fa-github"></i> Follow Bernd on GitHub
+      </a>
+    </p>
 
 </div>
 </div>

@@ -13,6 +13,87 @@ comments: false
     background-color: #f8f9fa;
     padding: 10px;
 }
+
+.bio-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
+
+.bio-language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.75rem 0;
+    font-weight: 500;
+    user-select: none;
+}
+
+.bio-language:hover {
+    opacity: 0.8;
+}
+
+.bio-chevron {
+    transition: transform 0.3s;
+}
+
+.bio-language.collapsed .bio-chevron {
+    transform: rotate(-90deg);
+}
+
+.bio-content {
+    margin-top: 1rem;
+}
+
+.bio-type {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+}
+
+.bio-type-title {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #495057;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.bio-text {
+    color: #212529;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+}
+
+.bio-copy-btn {
+    display: inline-block;
+    padding: 0.4rem 0.75rem;
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.bio-copy-btn:hover {
+    background: #5a6268;
+    text-decoration: none;
+    color: white;
+}
+
+.bio-copy-btn.copied {
+    background: #28a745;
+}
 </style>
 
 <div class="row justify-content-between">
@@ -20,27 +101,9 @@ comments: false
 
 <h4>Bernd Ruecker</h4>
 
-<p>Bernd is the co-founder and chief technologist at <a href="https://camunda.com/">Camunda</a>. A skilled software developer, Bernd has implemented innovative, large-scale process automation projects within industry-leading enterprises — helping them fully utilize automation technology and adopt process automation paradigms that fit into modern architectures.</p>
+<p>Bernd is software engineer at heart and the co-founder and chief technologist at <a href="https://camunda.com/">Camunda</a>. He is the author of "Practical Process Automation," the co-author of "Enterprise Process Orchestration" and "Real-Life BPMN," and is active on the technology speaking circuit. He holds an MSc in software technology from HFT Stuttgart.</p>
 
-<p>He is the author of "Practical Process Automation," the co-author of "Enterprise Process Orchestration" and "Real-Life BPMN," and is active on the technology speaking circuit. He holds an MSc in software technology from HFT Stuttgart.</p>
-
-<p class="mt-4">
-    <a href="https://www.linkedin.com/in/bernd-ruecker/" target="_blank" class="btn btn-primary">
-        <i class="fab fa-linkedin"></i> Connect on LinkedIn
-    </a>
-</p>
-
-<h4>Co-founder of Camunda</h4>
-
-I co-founded Camunda in 2008 as a consulting company focused on business process management (BPM). In 2013, we pivoted toward building an open-source workflow engine—and that shift defined our trajectory. Today, Camunda is the leading process orchestration and automation platform, shaping Agentic Automation to operationalize Agentic AI and bring LLM-powered intelligence into core business processes. Unlike proprietary, closed vendors, we’ve always built Camunda as an open, developer-friendly platform. Now, thousands of organizations worldwide use Camunda to design, automate, and optimize complex processes at scale—staying open, composable, and adaptable in a fast-changing world. Our mission remains the same as on day one: to make process orchestration open, flexible, and powerful for everyone.
-
-
-<p class="mt-3">
-    <a href="https://camunda.com/" target="_blank" class="btn btn-primary">
-        <i class="fas fa-external-link-alt"></i> Visit Camunda
-    </a>
-</p>
-
+<p>See his complete bio below.</p>
 
 
 <h4 class="mt-5">Books</h4>
@@ -117,10 +180,81 @@ I co-founded Camunda in 2008 as a consulting company focused on business process
             </div>
         </div>
     </div>
-    <h4 class="mt-5">Selected talks</h4>
+</div>
 
+<h4 class="mt-5">Co-founder of Camunda</h4>
+
+I co-founded Camunda in 2008 as a consulting company focused on business process management (BPM). In 2013, we pivoted toward building an open-source workflow engine—and that shift defined our trajectory. Today, Camunda is the leading process orchestration and automation platform, shaping Agentic Automation to operationalize Agentic AI and bring LLM-powered intelligence into core business processes. Unlike proprietary, closed vendors, we’ve always built Camunda as an open, developer-friendly platform. Now, thousands of organizations worldwide use Camunda to design, automate, and optimize complex processes at scale—staying open, composable, and adaptable in a fast-changing world. Our mission remains the same as on day one: to make process orchestration open, flexible, and powerful for everyone.
+
+
+<p class="mt-3">
+    <a href="https://camunda.com/" target="_blank" class="btn btn-primary">
+        <i class="fas fa-external-link-alt"></i> Visit Camunda
+    </a>
+</p>
+
+<h4 class="mt-5">Bios for CFPs & Speaking Engagements</h4>
+
+<p class="text-muted small">Ready to copy and paste. Click to expand language, then use the copy button for your preferred bio version.</p>
+
+<!-- ENGLISH BIOS -->
+<div class="bio-section">
+    <div class="bio-language" onclick="toggleBioLanguage(this)">
+        <span>English Bios</span>
+        <span class="bio-chevron">▼</span>
+    </div>
+    <div class="bio-content" style="display: none;">
+        <div class="bio-type">
+            <div class="bio-type-title">Short Bio</div>
+            <div class="bio-text">Bernd Ruecker is co-founder and Chief Technologist at Camunda. A skilled software developer, he has implemented large-scale process automation systems in enterprise environments, helping teams adopt automation paradigms that fit modern architectures. His current focus includes orchestration, event-driven systems, and agentic automation in distributed systems.</div>
+            <button class="bio-copy-btn" onclick="copyBio(this)">📋 Copy Short Bio</button>
+        </div>
+        <div class="bio-type">
+            <div class="bio-type-title">Long Bio</div>
+            <div class="bio-text">Bernd Ruecker is co-founder and Chief Technologist at Camunda and a skilled software developer focused on process automation in distributed systems.</div>
+            <div class="bio-text">Over the last 15+ years, he has implemented large-scale automation systems in enterprise environments, helping organizations fully utilize automation technology and adopt paradigms that fit modern architectures.</div>
+            <div class="bio-text">Bernd is the author of Practical Process Automation and co-author of Enterprise Process Orchestration and Real-Life BPMN. He is an active open-source contributor and regular conference speaker, focusing on orchestration, event-driven architectures, agentic automation, and building reliable automation systems for production use.</div>
+            <button class="bio-copy-btn" onclick="copyBio(this)">📋 Copy Long Bio</button>
+        </div>
+        <div class="bio-type">
+            <div class="bio-type-title">Engineering-Focused</div>
+            <div class="bio-text">Bernd Ruecker builds workflow engines and orchestration platforms for distributed systems. As co-founder and Chief Technologist at Camunda, he has spent over 15 years implementing large-scale automation systems and evolving orchestration concepts that work in production. His work centers on BPMN, event-driven architecture, and agentic orchestration for modern systems.</div>
+            <button class="bio-copy-btn" onclick="copyBio(this)">📋 Copy Engineering Bio</button>
+        </div>
+    </div>
+</div>
+
+<!-- GERMAN BIOS -->
+<div class="bio-section">
+    <div class="bio-language" onclick="toggleBioLanguage(this)">
+        <span>German Bios</span>
+        <span class="bio-chevron">▼</span>
+    </div>
+    <div class="bio-content" style="display: none;">
+        <div class="bio-type">
+            <div class="bio-type-title">Kurz</div>
+            <div class="bio-text">Bernd Rücker ist Mitgründer und Chief Technologist bei Camunda. Als erfahrener Softwareentwickler hat er großskalige Prozessautomatisierungssysteme umgesetzt und Teams dabei geholfen, Automatisierungskonzepte einzuführen, die zu modernen Architekturen passen. Sein aktueller Fokus liegt auf Orchestrierung, eventgetriebenen Systemen und agentischer Automatisierung.</div>
+            <button class="bio-copy-btn" onclick="copyBio(this)">📋 Bio kopieren</button>
+        </div>
+        <div class="bio-type">
+            <div class="bio-type-title">Lang</div>
+            <div class="bio-text">Bernd Rücker ist Mitgründer und Chief Technologist bei Camunda und erfahrener Softwareentwickler mit Schwerpunkt auf Prozessautomatisierung in verteilten Systemen.</div>
+            <div class="bio-text">Seit über 15 Jahren implementiert er skalierbare Automatisierungssysteme in Unternehmensumgebungen und unterstützt Organisationen dabei, Automatisierungstechnologien effektiv einzusetzen und Architekturmuster zu etablieren, die zu modernen Architekturen passen.</div>
+            <div class="bio-text">Er ist Autor von Practical Process Automation sowie Co-Autor von Enterprise Process Orchestration und Real-Life BPMN. Als Open-Source-Contributor und regelmäßiger Konferenzsprecher beschäftigt er sich mit Orchestrierung, eventgetriebenen Architekturen, agentischer Automatisierung und robusten Automatisierungskonzepten.</div>
+            <button class="bio-copy-btn" onclick="copyBio(this)">📋 Bio kopieren</button>
+        </div>
+        <div class="bio-type">
+            <div class="bio-type-title">Technisch / Engineering</div>
+            <div class="bio-text">Bernd Rücker entwickelt Workflow-Engines und Orchestrierungsplattformen für verteilte Systeme. Als Mitgründer und Chief Technologist bei Camunda arbeitet er seit über 15 Jahren an produktiven Automatisierungssystemen. Seine Schwerpunkte sind BPMN, eventgetriebene Architekturen und agentische Orchestrierung.</div>
+            <button class="bio-copy-btn" onclick="copyBio(this)">📋 Bio kopieren</button>
+        </div>
+    </div>
+</div>
+
+
+
+<h4 class="mt-5">Selected talks</h4>
     <div class="row">
-
         <div class="col-md-6 mb-4">
             <div class="card h-100">
                 <div class="card-body">
@@ -133,7 +267,6 @@ I co-founded Camunda in 2008 as a consulting company focused on business process
                 </div>
             </div>
         </div>
-
         <div class="col-md-6 mb-4">
             <div class="card h-100">
                 <div class="card-body">
@@ -146,7 +279,6 @@ I co-founded Camunda in 2008 as a consulting company focused on business process
                 </div>
             </div>
         </div>
-
         <div class="col-md-6 mb-4">
             <div class="card h-100">
                 <div class="card-body">
@@ -159,7 +291,6 @@ I co-founded Camunda in 2008 as a consulting company focused on business process
                 </div>
             </div>
         </div>
-
         <div class="col-md-6 mb-4">
             <div class="card h-100">
                 <div class="card-body">
@@ -172,17 +303,75 @@ I co-founded Camunda in 2008 as a consulting company focused on business process
                 </div>
             </div>
         </div>
-
     </div>
-
-</div>
-
-</div>
+    </div>
 
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<img class="shadow-lg" src="{{site.baseurl}}/assets/images/BerndRuecker.jpg" alt="Bernd Ruecker" style="width: 100%; border-radius: 8px;" />
+    <img class="shadow-lg" src="{{site.baseurl}}/assets/images/BerndRuecker.jpg" alt="Bernd Ruecker" style="width: 100%; border-radius: 8px;" />
+    <p class="mt-4">
+      <a href="https://www.linkedin.com/in/bernd-ruecker/" target="_blank" class="btn btn-primary">
+        <i class="fab fa-linkedin"></i> Connect with Bernd on LinkedIn
+      </a>
+    </p>
+
 </div>
 </div>
 </div>
+
+<script>
+function toggleBioLanguage(element) {
+    const content = element.nextElementSibling;
+    const chevron = element.querySelector('.bio-chevron');
+    
+    if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block';
+        element.classList.remove('collapsed');
+    } else {
+        content.style.display = 'none';
+        element.classList.add('collapsed');
+    }
+}
+
+function copyBio(button) {
+    // Find the bio text (all paragraphs before the button)
+    let bioText = '';
+    let sibling = button.previousElementSibling;
+    
+    while (sibling && sibling.classList.contains('bio-text')) {
+        bioText = sibling.textContent + '\n\n' + bioText;
+        sibling = sibling.previousElementSibling;
+    }
+    
+    bioText = bioText.trim();
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(bioText).then(function() {
+        const originalText = button.textContent;
+        button.textContent = '✓ Copied!';
+        button.classList.add('copied');
+        
+        setTimeout(function() {
+            button.textContent = originalText;
+            button.classList.remove('copied');
+        }, 2000);
+    }).catch(function(err) {
+        // Fallback for older browsers
+        const tempInput = document.createElement('textarea');
+        tempInput.value = bioText;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        
+        button.textContent = '✓ Copied!';
+        button.classList.add('copied');
+        setTimeout(function() {
+            const isEnglish = button.textContent.includes('English');
+            button.textContent = button.textContent.includes('kopieren') ? '📋 Bio kopieren' : '📋 Copy';
+            button.classList.remove('copied');
+        }, 2000);
+    });
+}
+</script>
